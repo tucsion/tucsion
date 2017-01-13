@@ -1,0 +1,141 @@
+<extend name="Base:base" />
+<block name="keywords">{$web[0][web_keywords]}</block>
+<block name="description">{$web[0][web_description]}</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/index.css">
+    <link rel="stylesheet" href="__CSS__/indexBanner.css">
+</block>
+<block name="main">
+    <!-- banner -->
+	<div class="slider" id="indexBanner">
+		<ul>
+			<foreach name="banner" item="v">
+			<li>
+				<div class="indexBanner" >
+                	<img src="{$v.banner}"  />
+	                <div class="container">
+	                    <p class="title">{$v.title}</p>
+	                    <p class="description">{$v.sub_title}</p>
+	                    <!-- <a href="{$v.url}" target="_blank" class="bannerBtn">查看详情</a> -->
+	                </div>
+	            </div>
+			</li>
+			</foreach>
+		</ul>
+		<div class="more more-d" style="z-index:9;position:absolute;">
+            <a href="javascript:void(0);" id="dianji"><i></i></a>
+        </div>
+	</div>
+
+	<!-- 服务项目 -->
+	<div id="service">
+		<div class="container">
+			<h2 class="title">我们只做我们擅长的</h2>
+			<p class="subTitle">术业有专攻，方能目无全牛</p>
+			<div class="services">
+				<div class="service">
+					<div class="service-img">
+						<img src="__IMG__/index-service-1.png" alt="">
+					</div>
+					<div class="content">
+						<h3 class="service-title">官网品牌建设</h3>
+						<p class="info">
+							我们通过专业的视角与丰富的经验发现创新的价值，为您的核心商业价值提供最具竞争力的产品方案。
+						</p>
+						<ul class="subService">
+							<li><a href="#">企业网络形象策划</a></li>
+							<li><a href="#">网页视觉识别风格设计 </a></li>
+							<li><a href="#">网络品牌策划</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="service">
+					<div class="service-img">
+						<img src="__IMG__/index-service-2.png" alt="">
+					</div>
+					<div class="content">
+						<h3 class="service-title">移动产品开发</h3>
+						<p class="info">
+							融合用户及商业化需求，建立跨平台互联网移动产品策略，助理移动产品定义及塑造、创新与落地。
+						</p>
+						<ul class="subService">
+							<li><a href="#">微信定制化开发</a></li>
+							<li><a href="#">APP设计开发&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a href="#">响应式网站设计</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="service">
+					<div class="service-img">
+						<img src="__IMG__/index-service-3.png" alt="">
+					</div>
+					<div class="content">
+						<h3 class="service-title">业务平台开发</h3>
+						<p class="info">
+							我们从多个维度入手设计产品战略，从而为您的核心商业价值提供最具竞争力并且可实施的产品方案。
+						</p>
+						<ul class="subService">
+							<li><a href="#">电商平台定制开发</a></li>
+							<li><a href="#">CRM&OA办公系统开发</a></li>
+							<li><a href="#">其他功能平台</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 案例展示 -->
+	<div id="case" class="container">
+		<h2 class="title">热爱你所热爱的，坚持理应坚持的</h2>
+		<p class="subTitle">我们毫不谦虚向您展示我们的成功力作,同时我们也从不害怕直面失败的过往</p>
+		<ul class="case-list">
+			<foreach name="case" item="v">
+			<li>
+				<a class="img" href="{$v.dir}/{$v.id}.html"><img src="{$v.thumbnail}" alt="{$v.title}"></a>
+				<a class="title text-overflow" href="{$v.dir}/{$v.id}.html">{$v.title}</a>
+				<p class="info">{$v.sub_title}</p>
+			</li>
+			</foreach>
+		</ul>
+		<div class="more more-l">
+			<a href="/case/">更多精彩<i></i></a>
+		</div>
+	</div>
+	<hr class="index-hr" />
+	<!-- 关于我们 -->
+	<div id="about" class="container">
+		<h2 class="title">风雨十年,再次遇见美好</h2>
+        <p class="subTitle">优秀，直到成为习惯；严谨，直到卓尔不群</p>
+		<div class="abouts">
+			<div class="about">
+				<div class="num">10</div>
+				<div class="title">10年行业经验</div>
+				<div class="info">图森视觉,成立于2016年,截至目前已有10年行业经验</div>
+			</div>
+			<div class="about">
+				<div class="num">5</div>
+				<div class="title">5个优秀部门</div>
+				<div class="info">专业团队,专业系统,公司设有市场部/设计部/技术部/行政部/售后服务部</div>
+			</div>
+			<div class="about">
+				<div class="num">2000<span>+</span></div>
+				<div class="title">2000多家高质量客户</div>
+				<div class="info">服务合作的客户约2000家,更有世界500强企业及国际知名单位</div>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+        <div class="more more-l">
+            <a href="/about/">更多精彩<i></i></a>
+        </div>
+	</div>
+</block>
+<block name="js">
+	<script src="__JS__/indexBanner.js"></script>
+    <script src="__JS__/index.js"></script>
+    <script type="text/javascript">
+    	var ThinkPHP = {
+    			'IMG' : '__IMG__',
+    	}
+    </script>
+</block>

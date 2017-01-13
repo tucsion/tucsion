@@ -1,0 +1,27 @@
+<php>
+	$category = M('Category');
+	$navs = $category->where('fid = 0')->field('id,dir,name')->select();
+</php>
+	<div id='head'>
+		<div class='head-bg'></div>
+		<div class='head container'>
+			<ul class='nav-bg'>
+				<li></li><li></li><li></li><li></li><li></li><li></li>
+			</ul>
+			<h1>
+				<a href='/'>
+					<img src='__IMG__/logo.png' alt='图森品牌'>
+				</a>
+			</h1>
+			<a id='navBtn' href='javascript:void(0);'><i></i></a>
+			<ul class='nav'>
+			<volist name="navs" id="vo">
+				<eq name='vo.name' value='联系'>
+				<li><a href="__APP__/{$vo.dir}/" class="contact">{$vo.name}</a></li>
+				<else />
+				<li><a href="__APP__/{$vo.dir}/">{$vo.name}</a></li>
+				</eq>
+			</volist>
+			</ul>
+		</div>
+	</div>

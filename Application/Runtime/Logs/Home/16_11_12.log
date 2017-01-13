@@ -1,0 +1,51 @@
+[ 2016-11-12T00:17:55+08:00 ] 162.158.75.72 /news/pid-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-12T03:29:20+08:00 ] 123.125.67.166 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T04:11:11+08:00 ] 101.71.55.80 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-11-12T05:38:19+08:00 ] 203.208.60.195 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T05:39:59+08:00 ] 173.245.53.232 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T06:52:42+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T07:22:06+08:00 ] 58.211.2.42 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-11-12T09:04:15+08:00 ] 108.162.246.73 /a/wangluoyushehuihuameitiyingxiao/20141105/10.html
+ERR: 无法加载控制器:A
+
+[ 2016-11-12T10:58:06+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T13:10:51+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T14:43:01+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T15:31:03+08:00 ] 141.101.99.82 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T15:53:50+08:00 ] 116.31.126.235 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T16:32:02+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T23:15:33+08:00 ] 157.55.39.186 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-12T23:15:39+08:00 ] 157.55.39.186 /a/wangluopinpaishejiyuguanli/20141101/2.html
+ERR: 无法加载控制器:A
+

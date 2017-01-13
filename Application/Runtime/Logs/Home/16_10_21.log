@@ -1,0 +1,120 @@
+[ 2016-10-21T02:09:23+08:00 ] 182.118.20.218 /case/1075.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-10-21T02:14:42+08:00 ] 58.211.2.102 /officail+url+case
+ERR: 无法加载控制器:Officail+url+case
+
+[ 2016-10-21T02:15:03+08:00 ] 58.211.2.102 /officail+url+more
+ERR: 无法加载控制器:Officail+url+more
+
+[ 2016-10-21T02:15:18+08:00 ] 58.211.2.102 /platform+url+case
+ERR: 无法加载控制器:Platform+url+case
+
+[ 2016-10-21T02:15:48+08:00 ] 58.211.2.102 /platform+url+more
+ERR: 无法加载控制器:Platform+url+more
+
+[ 2016-10-21T02:16:50+08:00 ] 58.211.2.102 /officai+url+case
+ERR: 无法加载控制器:Officai+url+case
+
+[ 2016-10-21T02:17:00+08:00 ] 58.211.2.102 /officai+url+more
+ERR: 无法加载控制器:Officai+url+more
+
+[ 2016-10-21T02:50:54+08:00 ] 203.208.60.154 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T02:51:00+08:00 ] 108.162.221.238 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T02:51:00+08:00 ] 117.34.13.42 /news_show/id-20.html
+ERR: 无法加载控制器:NewsShow
+
+[ 2016-10-21T03:29:12+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T03:49:17+08:00 ] 58.211.2.6 /case/business/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-10-21T03:49:18+08:00 ] 58.211.2.6 /news/technical/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-21T05:10:45+08:00 ] 58.211.2.78 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T05:51:20+08:00 ] 220.181.108.78 /a/jiaohushejiyuhudongmeitikaifa/
+ERR: 无法加载控制器:A
+
+[ 2016-10-21T05:57:13+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T06:38:42+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T06:48:06+08:00 ] 112.25.90.48 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-21T06:51:21+08:00 ] 112.25.90.24 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-21T06:58:40+08:00 ] 120.52.113.95 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T08:43:30+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T08:43:30+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T11:25:37+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T12:41:32+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T14:27:33+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T14:45:06+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T14:51:17+08:00 ] 108.162.221.238 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T14:57:28+08:00 ] 108.162.221.239 /news/pid-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-21T16:43:05+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T16:44:51+08:00 ] 123.125.67.226 /a/wangluoyushehuihuameitiyingxiao/20141105/10.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-21T16:54:33+08:00 ] 220.181.108.115 /a/wangluoyushehuihuameitiyingxiao/20141105/10.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-21T17:10:06+08:00 ] 108.162.228.65 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T18:50:26+08:00 ] 141.101.106.95 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-21T18:50:27+08:00 ] 162.158.153.101 /a/wangluopinpaishejiyuguanli/20141101/1.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-21T20:48:11+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-21T23:28:18+08:00 ] 203.208.60.129 /robots.txt
+ERR: 无法加载控制器:Robots
+

@@ -1,0 +1,81 @@
+[ 2016-11-28T00:12:01+08:00 ] 173.245.49.238 /news/technical/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-28T02:58:22+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T03:21:32+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T03:26:33+08:00 ] 173.245.49.137 /officail%20url%20case
+ERR: 无法加载控制器:Officail url case
+
+[ 2016-11-28T03:34:08+08:00 ] 123.125.67.157 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T03:59:08+08:00 ] 42.236.93.51 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T04:46:49+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-11-28T06:04:05+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T06:41:53+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-11-28T09:02:50+08:00 ] 172.68.65.104 /mobile/
+ERR: 无法加载控制器:Mobile
+
+[ 2016-11-28T10:47:07+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-11-28T15:04:24+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T15:23:26+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T17:32:53+08:00 ] 123.125.67.227 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T20:41:47+08:00 ] 121.42.0.84 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-11-28T20:42:03+08:00 ] 121.42.0.84 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-11-28T20:42:08+08:00 ] 121.42.0.84 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-11-28T20:42:10+08:00 ] 121.42.0.84 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-11-28T20:42:10+08:00 ] 121.42.0.84 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-11-28T20:42:17+08:00 ] 121.42.0.84 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-11-28T20:42:20+08:00 ] 121.42.0.84 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-11-28T20:42:22+08:00 ] 121.42.0.84 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-11-28T20:42:25+08:00 ] 121.42.0.84 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-11-28T20:49:09+08:00 ] 173.245.53.232 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-28T20:49:10+08:00 ] 173.245.49.238 /a/jiaohushejiyuhudongmeitikaifa/20141105/12.html
+ERR: 无法加载控制器:A
+
+[ 2016-11-28T20:53:00+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+

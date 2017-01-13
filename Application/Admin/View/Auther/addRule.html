@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增规则</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('index')}">权限管理</a> / 新增规则
+		</div>
+		<div class="right">
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-row" cellspacing="1">
+			<if condition="$pid">
+			<input type="hidden" name="pid" value="{$pid}" >
+			<tr>
+				<th>{$type}路径</th>
+				<td><input type="text" name="name"> <span class="remarks">应用/控制器/方法,如:Admin/Auther/addUser</span></td>
+			</tr>
+			</if>
+			<tr>
+				<th>{$type}名称</th>
+				<td><input type="text" name="title"> <span class="remarks">如 : 新增用户</span></td>	
+			</tr>
+			<tr>
+				<th></th>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

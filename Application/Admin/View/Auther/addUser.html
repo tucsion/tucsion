@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增用户</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('index')}">RBAC</a> / 新增用户
+		</div>
+		<div class="right">
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-row" cellspacing="1">
+			<tr>
+				<th>用户名</th>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<th>密码</th>
+				<td><input type="password" name="password"></td>	
+			</tr>
+			<tr>
+				<th>锁定状态</th>
+				<td>
+					<label for="lock1">
+						<input type="radio" name="lock" value="0" id="lock1" checked="checked"/> 不锁定 &nbsp;&nbsp;
+					</label>
+					<label for="lock2">
+						<input type="radio" name="lock" value="1" id="lock2"/> 锁定
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>所属分组</th>
+				<td>
+					<foreach name='group' item='v'>
+					<label for="group{$v.id}">
+						<input type="checkbox" id="group{$v.id}" name="group[]" value="{$v.id}">{$v.title}
+					</label>
+					</foreach>
+				</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

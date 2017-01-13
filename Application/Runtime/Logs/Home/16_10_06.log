@@ -1,0 +1,138 @@
+[ 2016-10-06T00:17:20+08:00 ] 162.158.91.23 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T00:18:03+08:00 ] 162.158.90.40 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T00:29:34+08:00 ] 162.158.91.43 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-06T02:29:45+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T02:43:09+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T03:02:16+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T03:10:32+08:00 ] 123.126.68.118 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T03:47:16+08:00 ] 162.158.74.66 /js/case.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-06T03:47:17+08:00 ] 162.158.75.99 /css/subnav.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-06T03:47:17+08:00 ] 162.158.74.120 /js/app.js
+ERR: 无法加载控制器:Js
+
+[ 2016-10-06T03:47:17+08:00 ] 162.158.74.133 /css/case.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-06T04:32:21+08:00 ] 108.162.246.140 /a/jiaohushejiyuhudongmeitikaifa/20141105/12.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-06T04:56:59+08:00 ] 112.25.90.48 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-06T05:01:55+08:00 ] 112.25.90.24 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-06T05:23:15+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T05:23:15+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T07:35:26+08:00 ] 220.181.108.142 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T07:52:26+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T08:24:25+08:00 ] 108.162.228.101 /news_show/id=4.html
+ERR: 无法加载控制器:NewsShow
+
+[ 2016-10-06T08:34:54+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T09:48:29+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T09:49:41+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T10:14:21+08:00 ] 141.101.64.233 /a/wangluoyushehuihuameitiyingxiao/
+ERR: 无法加载控制器:A
+
+[ 2016-10-06T10:50:07+08:00 ] 162.158.75.54 /css/contact.css
+ERR: 无法加载控制器:Css
+
+[ 2016-10-06T11:15:47+08:00 ] 141.101.104.98 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T11:15:49+08:00 ] 108.162.229.97 /case/pid-9.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-10-06T11:47:03+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T11:56:36+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T12:11:23+08:00 ] 80.91.162.98 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T12:42:48+08:00 ] 108.59.8.70 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T12:59:54+08:00 ] 64.246.187.42 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T13:02:29+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T13:56:13+08:00 ] 80.91.162.98 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T13:58:16+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T14:05:41+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T16:13:32+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T16:13:33+08:00 ] 162.158.75.72 /news/pid-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-06T17:50:13+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T17:57:29+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T18:40:58+08:00 ] 66.249.65.46 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T18:43:31+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T21:48:19+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-06T22:04:00+08:00 ] 220.181.108.96 /contacts/
+ERR: 无法加载控制器:Contacts
+
+[ 2016-10-06T22:11:12+08:00 ] 108.162.229.100 /wechat.html
+ERR: 无法加载控制器:Wechat
+

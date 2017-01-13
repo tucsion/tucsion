@@ -1,0 +1,39 @@
+[ 2016-11-17T00:01:47+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-17T03:57:28+08:00 ] 119.167.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-17T08:08:17+08:00 ] 173.245.49.238 /news/7.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-17T11:03:59+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-17T11:06:36+08:00 ] 173.245.49.238 /a/wangluopinpaishejiyuguanli/20141101/2.html
+ERR: 无法加载控制器:A
+
+[ 2016-11-17T17:34:20+08:00 ] 42.236.93.91 /Public/Home/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-17T17:34:29+08:00 ] 58.211.2.12 /Public/Home/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-17T17:35:03+08:00 ] 42.236.93.91 /Public/Home/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-17T20:24:12+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-17T20:24:12+08:00 ] 162.158.75.72 /news/pid-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-17T23:30:39+08:00 ] 123.125.71.108 /POLICY.txt
+ERR: 无法加载控制器:POLICY
+

@@ -1,0 +1,93 @@
+[ 2016-10-26T00:33:50+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T02:38:00+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-26T03:16:52+08:00 ] 108.162.221.239 /news/pid-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-26T03:33:38+08:00 ] 108.162.229.158 /news/20.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-26T03:41:08+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T04:21:23+08:00 ] 141.101.106.95 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T06:56:13+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T07:23:10+08:00 ] 108.162.221.238 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T09:03:43+08:00 ] 59.51.81.178 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-26T09:35:57+08:00 ] 182.118.20.171 /news/page-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-26T10:36:47+08:00 ] 141.101.106.95 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T11:25:55+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T13:14:45+08:00 ] 120.52.113.95 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-26T13:28:51+08:00 ] 207.46.13.227 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T15:31:15+08:00 ] 123.125.67.228 /a/wangluopinpaishejiyuguanli/
+ERR: 无法加载控制器:A
+
+[ 2016-10-26T15:42:46+08:00 ] 123.125.71.115 /a/wangluopinpaishejiyuguanli/
+ERR: 无法加载控制器:A
+
+[ 2016-10-26T17:59:36+08:00 ] 141.101.104.57 /a/wangluopinpaishejiyuguanli/20141101/4.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-26T19:37:23+08:00 ] 198.41.235.137 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T19:37:27+08:00 ] 198.41.235.155 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-26T22:32:35+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T22:37:12+08:00 ] 141.101.104.57 /joinus
+ERR: 无法加载控制器:Joinus
+
+[ 2016-10-26T22:55:01+08:00 ] 108.162.229.100 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-26T23:07:27+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T23:41:50+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T23:43:43+08:00 ] 123.126.113.109 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T23:43:43+08:00 ] 220.181.124.101 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T23:43:43+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-26T23:43:47+08:00 ] 220.181.124.101 /robots.txt
+ERR: 无法加载控制器:Robots
+

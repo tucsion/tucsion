@@ -1,0 +1,51 @@
+<extend name="Base:base" />
+<block name="title">联系图森_</block>
+<block name="keywords">图森联系方式,联系图森</block>
+<block name="description">您可以通过本页联系到图森工作人员为您解疑答惑,欢迎联系我们</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/contact.css">
+</block>
+<block name="main">
+	<div class="pageHead"></div>
+	
+	<div id="contact" class="container">
+		<div class="contact">
+			<h4 class="title">联系我们</h4>
+			<p class="subtitle">
+				如果您有新的项目想与我们讨论，请给我们发送邮件或者填写下面这个表单。欢迎发送合作邮件至：<a href="mailto:admin@tucsion.com">admin@tucsion.com</a>
+			</p>
+			<form action="__SELF__" method="post">
+				<dl>
+					<dd>
+						<input type="text" name="name" />
+						<span class="field">您的姓名：</span><i>*</i>
+					</dd>
+					<dd>
+						<input type="text" name="phone" />
+						<span class="field">联系手机：</span><i>*</i>
+					</dd>
+					<dd>
+						<input type="text" name="email" />
+						<span class="field">您的邮箱：</span><i>*</i>
+					</dd>
+					<dd class="textarea">
+						<textarea name="content"></textarea>
+						<span class="field">合作需求：</span><i>*</i>
+					</dd>
+					<input type="submit" class="btn" value="完成并发送" />
+				</dl>
+			</form>
+
+			<h4 class="title">我们在这里</h4>
+			<p class="subtitle">
+				通过实时的动态地图，您可以清楚的看到我们北京公司的所在地，我们随时欢迎您的到来。
+			</p>
+			<div class="map">
+				<img src="__IMG__/map.jpg" alt="图森地址">
+			</div>
+		</div>
+	</div>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+</block>

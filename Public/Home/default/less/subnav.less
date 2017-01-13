@@ -1,0 +1,85 @@
+//内页子导航
+ul.subNav {
+    transition: 1s;
+    text-align: center;
+    li {
+        display: inline-block;
+        padding: 0 28px;
+        transition: 1s;
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            transition: 1s;
+            &.active {
+                font-weight: 200;
+                color: #a0a14c;
+            }
+            &:hover {
+                color: #6d6e34;
+                text-shadow: 0 0 1px #6d6e34;
+            }
+        }
+    }
+}
+//屏幕尺寸 >= 1400
+@media screen and (min-width:1400px) {
+    @sWidth: 1360px;
+    ul.subNav {
+        padding: 60px 0;
+    }
+}
+// 1200 <= 屏幕尺寸 < 1400
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    @sWidth: 1170px;
+    ul.subNav {
+        padding: 50px 0;
+    }
+}
+// 992 <= 屏幕尺寸 < 1200
+@media screen and (min-width:992px) and (max-width:1199px) {
+    @sWidth: 970px;
+    ul.subNav {
+        padding: 40px 0;
+        li {
+            padding: 0 20px;
+        }
+    }
+}
+// 768 <= 屏幕尺寸 < 992
+@media screen and (min-width:768px) and (max-width:991px) {
+    @sWidth: 750px;
+    ul.subNav {
+        padding: 40px 0;
+        li {
+            padding: 0 15px;
+        }
+    }
+}
+// 560 <= 屏幕尺寸 < 768
+@media screen and (min-width:560px) and (max-width:767px) {
+    @sWidth: 100%;
+    ul.subNav {
+        padding: 30px 0;
+        li {
+            padding: 0 10px;
+            
+        }
+    }
+}
+//屏幕尺寸 < 522
+@media screen and (max-width:559px) {
+    @sWidth: 100%;
+    ul.subNav {
+        padding: 30px 0;
+        text-align: left;
+        overflow: hidden;
+        li {
+            padding: 0;
+            margin: 5px 0;
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+    }
+}

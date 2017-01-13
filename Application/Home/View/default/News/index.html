@@ -1,0 +1,48 @@
+<extend name="Base:base" />
+<block name="title">动态_</block>
+<block name="keywords">动态关键字</block>
+<block name="description">动态描述</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/news.css">
+	<link rel="stylesheet" href="__CSS__/subnav.css">
+</block>
+<block name="main">
+	<div class="pageHead"></div>
+	<div class="container">
+		<ul class="subNav">
+			<li><a class="active" href="/news/">全部</a></li>
+			<foreach name="subNavs" item="vo" >
+			<li><a href="__APP__/{$vo.dir}/">{$vo.name}</a></li>
+			</foreach>
+		</ul>
+		<ul class="news-list">
+			<foreach name="list" item="v">
+			<li>
+				<a class="thumbnail" href="__APP__/{$v.cate_dir}/{$v.id}.html">
+					<img src="{$v.thumbnail}" alt="{$v.title}">
+				</a>
+				<div class="info">
+					<div class="time">
+						<span class="fTypeName"><a href="__APP__/{$v.cate_dir}/">{$v.cate_name}</a></span> | <span class="time">{$v.post_time|date='Y.m.d',###}</span>
+					</div>
+					<h3><a href="__APP__/{$v.cate_dir}/{$v.id}.html">{$v.title}</a></h3>
+					<p class="description">
+						{$v.description}
+					</p>
+				</div>
+			</li>
+			</foreach>
+		</ul>
+		<ul class="pages">
+			<li class="on">1</li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+		</ul>
+	</div>
+	
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+</block>

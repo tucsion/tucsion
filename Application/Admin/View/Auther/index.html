@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>权限管理</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('index')}">权限管理</a> / 用户列表
+		</div>
+		<div class="right">
+			<a href="{:U('addUser')}">新增用户</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<table class="table table-col" cellspacing="1">
+		<tr>
+			<th>#ID</th>
+			<th>用户名</th>
+			<th>部门分组</th>
+			<th>最后登录时间</th>
+			<th>最后登录IP</th>
+			<th>会员状态</th>
+			<th>操作</th>
+		</tr>
+		<foreach name='user' item='v' key='key'>
+		<tr>
+			<td>{$v.id}</td>
+			<td>{$v.username}</td>
+			<td>
+				<foreach name='v.group' item='vo' key='k'>
+				{$vo.title}<if condition="$k+1 neq count($v['group'])">,</if>
+				</foreach>
+			</td>
+			<td>{$v.logintime|date='Y-m-d H:i:s',###}</td>
+			<td>{$v.loginip}</td>
+			<td>{$v['lock']?'<span style="color:red;">锁定</span>':'正常'}</td>
+			<td>
+				<a href="{:U('updateUser')}/id/{$v.id}">修改</a> | 
+				<a href="{:U('delUser')}/id/{$v.id}" class="delBtn">删除</a> 
+			</td>
+		</tr>
+		</foreach>
+	</table>
+
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/modal.js"></script>	
+</body>
+</html>

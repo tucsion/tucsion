@@ -1,0 +1,66 @@
+[ 2016-10-30T01:04:10+08:00 ] 123.125.67.222 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T02:48:22+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T03:48:33+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T04:35:35+08:00 ] 108.162.221.238 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T06:23:13+08:00 ] 173.245.49.142 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T06:23:14+08:00 ] 108.162.229.250 /case/63.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-10-30T07:43:04+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-30T08:36:45+08:00 ] 59.51.81.183 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-30T09:04:09+08:00 ] 42.236.93.21 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-30T11:26:33+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T14:20:01+08:00 ] 123.125.71.12 /news/7.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-30T15:43:41+08:00 ] 123.125.67.224 /officail%20url%20more
+ERR: 无法加载控制器:Officail url more
+
+[ 2016-10-30T15:50:24+08:00 ] 220.181.108.161 /officail%20url%20more
+ERR: 无法加载控制器:Officail url more
+
+[ 2016-10-30T16:21:43+08:00 ] 123.125.71.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T17:19:33+08:00 ] 173.245.49.238 /case/business/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-10-30T19:49:27+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-30T20:14:12+08:00 ] 5.39.222.22 /wp-includes/
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-10-30T20:14:13+08:00 ] 5.39.222.22 /modules/
+ERR: 无法加载控制器:Modules
+
+[ 2016-10-30T23:41:54+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+

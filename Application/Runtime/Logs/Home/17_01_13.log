@@ -1,0 +1,71 @@
+[ 2017-01-13T01:57:22+08:00 ] 220.181.51.92 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T02:15:14+08:00 ] 66.249.65.139 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T03:38:54+08:00 ] 66.249.65.139 /news/6.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2017-01-13T03:59:47+08:00 ] 42.236.93.51 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T04:59:16+08:00 ] 207.46.13.211 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T08:07:00+08:00 ] 111.206.36.6 /Public/Home/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2017-01-13T08:18:15+08:00 ] 123.125.67.222 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T09:03:39+08:00 ] 42.236.93.81 /news_show/id-24.html
+ERR: 无法加载控制器:NewsShow
+
+[ 2017-01-13T11:36:50+08:00 ] 123.125.71.34 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T15:16:49+08:00 ] 207.46.13.239 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T16:15:07+08:00 ] 162.158.74.58 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2017-01-13T16:26:16+08:00 ] 42.236.93.21 /news_show/id=4.html
+ERR: 无法加载控制器:NewsShow
+
+[ 2017-01-13T19:02:18+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/tucsion/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `ts_system` [ RunTime:0.0540s ]
+SQL: SELECT `web_name`,`web_keywords`,`web_description` FROM `ts_system` WHERE ( id = 1 )  [ RunTime:0.0529s ]
+SQL: SHOW COLUMNS FROM `ts_case` [ RunTime:0.0552s ]
+SQL: SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as dir FROM ts_case a INNER JOIN ts_category b ON a.fid=b.id  WHERE ( a.is_display = 1 AND a.is_index = 1 ) LIMIT 6   [ RunTime:0.0533s ]
+SQL: SHOW COLUMNS FROM `ts_banner` [ RunTime:0.0537s ]
+SQL: SELECT `title`,`sub_title`,`url`,`banner` FROM `ts_banner` WHERE ( is_display = 1 ) ORDER BY sort DESC  [ RunTime:0.0531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant web_keywords - assumed 'web_keywords' /Applications/MAMP/htdocs/tucsion/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 9 行.
+NOTIC: [8] Use of undefined constant web_description - assumed 'web_description' /Applications/MAMP/htdocs/tucsion/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ts_category` [ RunTime:0.0549s ]
+SQL: SELECT `id`,`dir`,`name` FROM `ts_category` WHERE ( fid = 0 )  [ RunTime:0.0528s ]
+SQL: SELECT * FROM `ts_system` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+

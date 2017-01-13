@@ -1,0 +1,54 @@
+<extend name="Base:base" />
+<block name="title">加入我们_</block>
+<block name="keywords">关于关键字</block>
+<block name="description">关于描述</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/about.css">
+	<link rel="stylesheet" href="__CSS__/subnav.css">
+</block>
+<block name="main">
+	<div class="pageHead"></div>
+	<div class="container">
+		<ul class="subNav">
+			<li><a class="active" href="__APP__/about/">关于图森</a></li>
+			<li><a href="__APP__/about/join/">加入我们</a></li>
+		</ul>
+	</div>
+	<div id="banner">
+		<div class="text">
+			<h4>期待你的加入</h4>
+			<p>共同的归属感、认同感、使命感，产生强大的凝聚力热情、专业、执着、正直、才华洋溢——是为图森的团队气质</p>
+		</div>
+		<img src="__IMG__/about_join_banner.jpg" alt="加入图森" />
+	</div>
+	<!-- 招聘列表 -->
+	<div class="join container">
+		<ul class="join_ul">
+			<foreach name='list' item='v'>
+			<li>
+				<span class="title">{$v.title}<i>招聘人数{$v.num}人</i></span>
+				<dl>
+					<dt>招聘人数{$v.num}人</dt>
+					<dd>
+						<p>职位描述：</p>
+						{$v.description}
+					</dd>
+					<dd>
+						<p>招聘要求：</p>
+						{$v.required}
+					</dd>
+				</dl>
+				<a class="btn" href="#">应聘此职位</a>
+			</li>
+			</foreach>
+		</ul>
+		<div style="clear:both;"></div>
+		<div class="join_mail">
+			<p>请发送简历及作品至<a href="mailto:admin@tucsion.com">admin@tucsion.com</a>，邮件主题为：“职位+姓名”</p>
+			<a href="#" class="btn">我要加入</a>
+		</div>
+	</div>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+</block>

@@ -1,0 +1,139 @@
+<extend name="Base:base" />
+<block name="title">服务_</block>
+<block name="keywords">服务关键字</block>
+<block name="description">服务描述</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/service.css">
+</block>
+<block name="main">
+	<foreach name='service' item='v'>
+	<div class="pageHead"></div>
+	<div id="banner">
+		<div class="text">
+			<h4>{$v.banner_title}</h4>
+			<p>{$v.banner_info}</p>
+		</div>
+		<img src="__IMG__/service_banner.jpg" alt="图森服务" />
+	</div>
+	<!-- 企业官网开发 -->
+	<div class="offical_website container">
+		<h3 class="title">{$v.official_title}</h3>
+		<p class="info">
+			{$v.official_info}
+		</p>
+		<div class="more">
+			<a href="{$v.official_url_more}">探索更多<i></i></a>
+		</div>
+		<ul class="offical_ul">
+			<li>
+				<div class="img">
+					<img src="__IMG__/offical_1.jpg" alt="企业网络形象策划" />
+				</div>
+				<h4 class="title">{$v.official_p1_title}</h4>
+				<p class="info">
+					$v.official_p1_info}
+				</p>
+			</li>
+			<li>
+				<div class="img">
+					<img src="__IMG__/offical_2.jpg" alt="企业网络形象策划" />
+				</div>
+				<h4 class="title">{$v.official_p2_title}</h4>
+				<p class="info">
+					{$v.official_p2_info}
+				</p>
+			</li>
+			<li>
+				<div class="img">
+					<img src="__IMG__/offical_3.png" alt="企业网络形象策划" />
+				</div>
+				<h4 class="title">{$v.official_p3_title}</h4>
+				<p class="info">
+					{$v.official_p3_info}
+				</p>
+			</li>
+		</ul>
+		<div class="more more2">
+			<a href="{$v.official_url_case}">浏览相关案例<i></i></a>
+		</div>
+	</div>
+	<!-- 移动端开发 -->
+	<div class="mobile_website">
+		<div class="container">
+			<h3 class="title">{$v.mobile_title}</h3>
+			<p class="info">
+				{$v.mobile_info}
+			</p>
+			<div class="more">
+				<a href="{$v.mobile_url_more}">探索更多<i></i></a>
+			</div>
+		</div>
+		<div class="imgs">
+			<div class="mobile3">
+				<img src="__IMG__/mobile3.png" alt="响应式网站设计" />
+				<p class="title">响应式网站设计</p>
+			</div>
+			<div class="mobile1">
+				<img src="__IMG__/mobile1.png" alt="微信定制化开发" />
+				<p class="title">微信定制化开发</p>
+			</div>
+			<div class="mobile2">
+				<img src="__IMG__/mobile2.png" alt="APP设计开发" />
+				<p class="title">APP设计开发</p>
+			</div>
+			<div class="mobile2-2">
+				<img src="__IMG__/mobile2-2.png" alt="响应式网站设计" />
+			</div>
+		</div>
+		<div class="more more2">
+			<a href="{$v.mobile_url_case}">浏览相关案例<i></i></a>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<!-- 业务平台开发 -->
+	<div class="offical_website container">
+		<h3 class="title">{$v.platform_title}</h3>
+		<p class="info">
+			{$v.platform_info}
+		</p>
+		<div class="more">
+			<a href="{$v.platform_url_more}">探索更多<i></i></a>
+		</div>
+		<ul class="offical_ul">
+			<li>
+				<div class="img">
+					<img src="__IMG__/bussiness1.png" alt="企业网络形象策划" />
+				</div>
+				<h4 class="title">{$v.platform_p1_title}</h4>
+				<p class="info">
+					{$v.platform_p1_info}
+				</p>
+			</li>
+			<li>
+				<div class="img">
+					<img src="__IMG__/bussiness2.png" alt="企业网络形象策划" />
+				</div>
+				<h4 class="title">{$v.platform_p2_title}</h4>
+				<p class="info">
+					{$v.platform_p2_info}
+				</p>
+			</li>
+			<li>
+				<div class="img">
+					<img src="__IMG__/bussiness3.png" alt="企业网络形象策划" />
+				</div>
+				<h4 class="title">{$v.platform_p3_title}</h4>
+				<p class="info">
+					{$v.platform_p3_info}
+				</p>
+			</li>
+		</ul>
+		<div class="more more2">
+			<a href="{$v.platform_url_case}">浏览相关案例<i></i></a>
+		</div>
+	</div>
+	</foreach>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+</block>

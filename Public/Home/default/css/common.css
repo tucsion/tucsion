@@ -1,0 +1,1405 @@
+#head {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+#head .head-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+#head .head {
+  position: relative;
+  height: 100%;
+}
+#head .head #navBtn {
+  display: none;
+}
+#head .head h1 {
+  position: absolute;
+  left: 0;
+  height: 50%;
+  top: 25%;
+}
+#head .head h1 a {
+  height: 100%;
+  display: block;
+  line-height: 0;
+}
+#head .head h1 a img {
+  height: 100%;
+  display: inline-block;
+  transition: 1s;
+  margin-right: 20px;
+}
+#head .head ul.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: table;
+}
+#head .head ul.nav li {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 1px;
+}
+#head .head ul.nav li a {
+  font-weight: 200;
+  color: #000;
+}
+#head .head ul.nav li a:hover {
+  border: 1px solid #a0a14c;
+  border-radius: 3px;
+  padding: 0;
+  color: #a0a14c;
+}
+#head .head ul.nav li a.contact {
+  border: 1px solid #a0a14c;
+  border-radius: 3px;
+  padding: 0;
+  color: #a0a14c;
+  transition: 0.5s;
+}
+#head .head ul.nav li a.contact:hover {
+  color: #fff;
+  background: #a0a14c;
+}
+#head .head ul.nav li.active {
+  color: #a0a14c;
+  background-image: url("../images/navActive.png");
+  background-repeat: no-repeat;
+  background-position: center 85%;
+}
+#head .head ul.nav li.active a {
+  font-weight: 200;
+  color: #a0a14c;
+}
+#footer {
+  clear: both;
+  font-weight: 100;
+  color: #fff;
+}
+#footer a {
+  color: inherit;
+}
+#footer .footer-address {
+  background: #6d6e34;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#footer .footer-address dl.address {
+  float: left;
+}
+#footer .footer-address dl.address dd {
+  color: #fff;
+}
+#footer .footer-address dl.address dd i {
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+#footer .footer-address dl.address dd:last-child {
+  margin-bottom: 0;
+}
+#footer .footer-address div.weixin {
+  position: absolute;
+}
+#footer .footer-address div.weixin p {
+  text-align: center;
+}
+#footer .footer-address div.online {
+  float: right;
+}
+#footer .footer-address div.online div.online1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+#footer .footer-address div.online div.online1 div.online2 {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+}
+#footer .footer-address div.online div.online1 div.online2 a {
+  display: inline-block;
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+}
+#footer .copyright ul {
+  text-align: center;
+}
+#footer .copyright ul li {
+  display: inline-block;
+}
+#footer .copyright ul li a {
+  color: #666;
+  font-weight: 300;
+}
+#footer .copyright p.footerP {
+  color: #999;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.more {
+  width: 100%;
+  text-align: center;
+}
+.more a {
+  font-weight: 100;
+  color: #000;
+  font-size: 18px;
+}
+.more a i {
+  background-image: url("../images/icons.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.5s;
+}
+@media screen and (min-width: 1400px) {
+  #kefu {
+    background: url(../images/kefu.png) 0 0 no-repeat;
+    width: 100px;
+    height: 221px;
+    z-index: 9;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  #kefu a {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 1px;
+    display: block;
+  }
+  #huihu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+  #huihu .huihu-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+  }
+  #huihu .huihu {
+    width: 400px;
+    height: 260px;
+    background: #fff;
+    position: absolute;
+    padding: 40px;
+  }
+  #huihu .huihu .huihuBox {
+    margin-bottom: 30px;
+  }
+  #huihu .huihu .huihuBox p.title {
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn {
+    width: 306px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background: #e60012;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn:hover {
+    background: #c60012;
+  }
+  #huihu .huihu .huihuBox .inputs #telInput {
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn {
+    width: 100px;
+    height: 40px;
+    background: #e60012;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn:hover {
+    background: #c60012;
+  }
+
+  .pageHead {
+    width: 100%;
+    height: 100px;
+  }
+  .container {
+    width: 1360px;
+  }
+  .more-l {
+    margin-top: 70px;
+  }
+  .more-l a i {
+    width: 40px;
+    height: 18px;
+    background-position: -166px -13px;
+    margin-left: 20px;
+  }
+  .more-l a:hover i {
+    background-position: -110px -13px;
+  }
+  .more-d {
+    text-align: center;
+  }
+  .more-d a {
+    display: inline-block;
+    width: 22px;
+    height: 47px;
+  }
+  .more-d a i {
+    width: 22px;
+    height: 47px;
+    background-position: 0 -64px;
+  }
+  .more-d a:hover i {
+    background-position: 0 -10px;
+  }
+  #head {
+    height: 100px;
+  }
+  #head .head ul.nav li {
+    margin-left: 46px;
+  }
+  #head .head ul.nav li a {
+    font-size: 18px;
+    padding: 10px 35px;
+  }
+  #head .head ul.nav li a:hover {
+    padding: 9px 34px;
+  }
+  #head .head ul.nav li a.contact {
+    padding: 9px 34px;
+  }
+  #footer .footer-address {
+    padding: 40px 0;
+  }
+  #footer .footer-address .container {
+    padding-bottom: 40px;
+  }
+  #footer .footer-address dl.address {
+    width: 430px;
+  }
+  #footer .footer-address dl.address dd {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #footer .footer-address dl.address dd i {
+    width: 21px;
+    height: 25px;
+  }
+  #footer .footer-address dl.address dd i.address-address {
+    background-position: -324px 0;
+  }
+  #footer .footer-address dl.address dd i.address-email {
+    background-position: -250px -1px;
+  }
+  #footer .footer-address dl.address dd i.address-telphone {
+    background-position: -288px -1px;
+  }
+  #footer .footer-address div.weixin {
+    top: 40px;
+    left: 50%;
+    margin-left: -52px;
+  }
+  #footer .footer-address div.weixin img {
+    width: 105px;
+    height: 105px;
+  }
+  #footer .footer-address div.weixin p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  #footer .footer-address div.online {
+    width: 300px;
+    height: 60px;
+  }
+  #footer .footer-address div.online p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  #footer .copyright {
+    padding-bottom: 60px;
+  }
+  #footer .copyright .footerLogo {
+    width: 126px;
+    height: 104px;
+    margin: 50px auto 0;
+  }
+  #footer .copyright .footerLogo img {
+    width: 126px;
+    height: 104px;
+  }
+  #footer .copyright ul {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #footer .copyright ul li {
+    padding: 0 8px;
+  }
+  #footer .copyright ul li a {
+    font-size: 14px;
+  }
+  #footer .copyright p.footerP {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #kefu {
+    background: url(../images/kefu.png) 0 0 no-repeat;
+    width: 100px;
+    height: 221px;
+    z-index: 9;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  #kefu a {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 1px;
+    display: block;
+  }
+  #huihu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+  #huihu .huihu-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+  }
+  #huihu .huihu {
+    width: 400px;
+    height: 260px;
+    background: #fff;
+    position: absolute;
+    padding: 40px;
+  }
+  #huihu .huihu .huihuBox {
+    margin-bottom: 30px;
+  }
+  #huihu .huihu .huihuBox p.title {
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn {
+    width: 306px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background: #e60012;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn:hover {
+    background: #c60012;
+  }
+  #huihu .huihu .huihuBox .inputs #telInput {
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn {
+    width: 100px;
+    height: 40px;
+    background: #e60012;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn:hover {
+    background: #c60012;
+  }
+  .pageHead {
+    width: 100%;
+    height: 100px;
+  }
+  .container {
+    width: 1170px;
+  }
+  .more-l {
+    margin-top: 70px;
+  }
+  .more-l a i {
+    width: 40px;
+    height: 18px;
+    background-position: -166px -13px;
+    margin-left: 20px;
+  }
+  .more-l a:hover i {
+    background-position: -110px -13px;
+  }
+  .more-d a {
+    width: 22px;
+    height: 47px;
+  }
+  .more-d a i {
+    width: 22px;
+    height: 47px;
+    background-position: 0 -64px;
+  }
+  .more-d a:hover i {
+    background-position: 0 -10px;
+  }
+  #head {
+    height: 100px;
+  }
+  #head .head ul.nav li {
+    margin-left: 36px;
+  }
+  #head .head ul.nav li a {
+    font-size: 18px;
+    padding: 10px 35px;
+  }
+  #head .head ul.nav li a:hover {
+    padding: 9px 34px;
+  }
+  #head .head ul.nav li a.contact {
+    padding: 9px 34px;
+  }
+  #footer .footer-address {
+    padding: 30px 0;
+  }
+  #footer .footer-address dl.address {
+    width: 430px;
+  }
+  #footer .footer-address dl.address dd {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #footer .footer-address dl.address dd i {
+    width: 21px;
+    height: 25px;
+  }
+  #footer .footer-address dl.address dd i.address-address {
+    background-position: -324px 0;
+  }
+  #footer .footer-address dl.address dd i.address-email {
+    background-position: -250px -1px;
+  }
+  #footer .footer-address dl.address dd i.address-telphone {
+    background-position: -288px -1px;
+  }
+  #footer .footer-address div.weixin {
+    left: 50%;
+    top: 30px;
+    margin-left: -40px;
+  }
+  #footer .footer-address div.weixin img {
+    width: 80px;
+    height: 80px;
+  }
+  #footer .footer-address div.weixin p {
+    font-size: 12px;
+    padding-top: 6px;
+  }
+  #footer .footer-address div.online {
+    width: 300px;
+  }
+  #footer .footer-address div.online p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  #footer .footer-address div.online a {
+    width: 300px;
+    height: 60px;
+    background-position: 0 -190px;
+  }
+  #footer .footer-address div.online a:hover {
+    background-position: 0 -250px;
+  }
+  #footer .copyright {
+    padding-bottom: 30px;
+  }
+  #footer .copyright .footerLogo {
+    width: 97px;
+    height: 80px;
+    margin: 30px auto 0;
+  }
+  #footer .copyright .footerLogo img {
+    width: 97px;
+    height: 80px;
+  }
+  #footer .copyright ul {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #footer .copyright ul li {
+    padding: 0 4px;
+  }
+  #footer .copyright ul li a {
+    font-size: 14px;
+  }
+  #footer .copyright p.footerP {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #kefu {
+    background: url(../images/kefu.png) 0 0 no-repeat;
+    width: 100px;
+    height: 221px;
+    z-index: 9;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  #kefu a {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 1px;
+    display: block;
+  }
+  #huihu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+  #huihu .huihu-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+  }
+  #huihu .huihu {
+    width: 400px;
+    height: 260px;
+    background: #fff;
+    position: absolute;
+    padding: 40px;
+  }
+  #huihu .huihu .huihuBox {
+    margin-bottom: 30px;
+  }
+  #huihu .huihu .huihuBox p.title {
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn {
+    width: 306px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background: #e60012;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn:hover {
+    background: #c60012;
+  }
+  #huihu .huihu .huihuBox .inputs #telInput {
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn {
+    width: 100px;
+    height: 40px;
+    background: #e60012;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn:hover {
+    background: #c60012;
+  }
+  .pageHead {
+    width: 100%;
+    height: 75px;
+  }
+  .container {
+    width: 970px;
+  }
+  .more-l {
+    margin-top: 50px;
+  }
+  .more-l a i {
+    width: 34.69px;
+    height: 15px;
+    background-position: -165.08px -43px;
+    margin-left: 15px;
+  }
+  .more-l a:hover i {
+    background-position: -110px -43px;
+  }
+  .more-d a {
+    width: 16px;
+    height: 34px;
+  }
+  .more-d a i {
+    width: 16px;
+    height: 34px;
+    background-position: -35px -64px;
+  }
+  .more-d a:hover i {
+    background-position: -35px -10px;
+  }
+  #head {
+    height: 75px;
+  }
+  #head .head ul.nav li {
+    margin-left: 26px;
+  }
+  #head .head ul.nav li a {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+  #head .head ul.nav li a:hover {
+    padding: 9px 24px;
+  }
+  #head .head ul.nav li a.contact {
+    padding: 9px 24px;
+  }
+  #footer .footer-address {
+    padding: 30px 0;
+  }
+  #footer .footer-address dl.address {
+    width: 430px;
+  }
+  #footer .footer-address dl.address dd {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #footer .footer-address dl.address dd i {
+    width: 17px;
+    height: 20px;
+  }
+  #footer .footer-address dl.address dd i.address-address {
+    background-position: -308px -40px;
+  }
+  #footer .footer-address dl.address dd i.address-email {
+    background-position: -250px -42px;
+  }
+  #footer .footer-address dl.address dd i.address-telphone {
+    background-position: -280px -41px;
+  }
+  #footer .footer-address div.weixin {
+    left: 50%;
+    top: 30px;
+    margin-left: -40px;
+  }
+  #footer .footer-address div.weixin img {
+    width: 80px;
+    height: 80px;
+  }
+  #footer .footer-address div.weixin p {
+    font-size: 12px;
+    padding-top: 6px;
+  }
+  #footer .footer-address div.online {
+    width: 200px;
+  }
+  #footer .footer-address div.online p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  #footer .footer-address div.online a {
+    width: 200px;
+    height: 40px;
+    background-position: 0 -310px;
+  }
+  #footer .footer-address div.online a:hover {
+    background-position: 0 -350px;
+  }
+  #footer .copyright {
+    padding-bottom: 30px;
+  }
+  #footer .copyright .footerLogo {
+    width: 97px;
+    height: 80px;
+    margin: 30px auto 0;
+  }
+  #footer .copyright .footerLogo img {
+    width: 97px;
+    height: 80px;
+  }
+  #footer .copyright ul {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #footer .copyright ul li {
+    padding: 0 4px;
+  }
+  #footer .copyright ul li a {
+    font-size: 14px;
+  }
+  #footer .copyright p.footerP {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #kefu {
+    background: url(../images/kefu.png) 0 0 no-repeat;
+    width: 100px;
+    height: 221px;
+    z-index: 9;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  #kefu a {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 1px;
+    display: block;
+  }
+  #huihu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+  #huihu .huihu-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+  }
+  #huihu .huihu {
+    width: 400px;
+    height: 260px;
+    background: #fff;
+    position: absolute;
+    padding: 40px;
+  }
+  #huihu .huihu .huihuBox {
+    margin-bottom: 30px;
+  }
+  #huihu .huihu .huihuBox p.title {
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn {
+    width: 306px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background: #e60012;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox a.shangqiaoBtn:hover {
+    background: #c60012;
+  }
+  #huihu .huihu .huihuBox .inputs #telInput {
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn {
+    width: 100px;
+    height: 40px;
+    background: #e60012;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+  }
+  #huihu .huihu .huihuBox .inputs #callBtn:hover {
+    background: #c60012;
+  }
+  .pageHead {
+    width: 100%;
+    height: 75px;
+  }
+  .container {
+    width: 750px;
+  }
+  .more-l {
+    margin-top: 50px;
+  }
+  .more-l a i {
+    width: 34.69px;
+    height: 15px;
+    background-position: -165.08px -43px;
+    margin-left: 15px;
+  }
+  .more-l a:hover i {
+    background-position: -110px -43px;
+  }
+  .more-d a {
+    width: 16px;
+    height: 34px;
+  }
+  .more-d a i {
+    width: 16px;
+    height: 34px;
+    background-position: -35px -64px;
+  }
+  .more-d a:hover i {
+    background-position: -35px -10px;
+  }
+  #head {
+    height: 75px;
+  }
+  #head .head ul.nav li {
+    margin-left: 6px;
+    transition: 1s;
+  }
+  #head .head ul.nav li.active {
+    background-image: none;
+  }
+  #head .head ul.nav li a {
+    font-size: 16px;
+    padding: 6px 15px;
+  }
+  #head .head ul.nav li a:hover {
+    padding: 5px 14px;
+  }
+  #head .head ul.nav li a.contact {
+    padding: 5px 14px;
+  }
+  #footer .footer-address {
+    padding: 20px 0;
+  }
+  #footer .footer-address dl.address {
+    width: 300px;
+    float: left;
+  }
+  #footer .footer-address dl.address dd {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #footer .footer-address dl.address dd i {
+    display: none;
+  }
+  #footer .footer-address div.weixin {
+    left: 50%;
+    top: 20px;
+    margin-left: -40px;
+  }
+  #footer .footer-address div.weixin img {
+    width: 80px;
+    height: 80px;
+  }
+  #footer .footer-address div.weixin p {
+    display: none;
+  }
+  #footer .footer-address div.online {
+    width: 200px;
+  }
+  #footer .footer-address div.online p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  #footer .footer-address div.online a {
+    width: 200px;
+    height: 40px;
+    background-position: 0 -310px;
+  }
+  #footer .footer-address div.online a:hover {
+    background-position: 0 -350px;
+  }
+  #footer .copyright {
+    padding-bottom: 20px;
+  }
+  #footer .copyright .footerLogo {
+    width: 73px;
+    height: 60px;
+    margin: 20px auto 0;
+  }
+  #footer .copyright .footerLogo img {
+    width: 73px;
+    height: 60px;
+  }
+  #footer .copyright ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #footer .copyright ul li {
+    padding: 0 4px;
+  }
+  #footer .copyright ul li a {
+    font-size: 14px;
+  }
+  #footer .copyright p.footerP {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 767px) {
+  #huihu {
+    display: none !important;
+  }
+  .pageHead {
+    width: 100%;
+    height: 50px;
+  }
+  .container {
+    width: 520px;
+  }
+  .more-l {
+    margin-top: 40px;
+  }
+  .more-l a i {
+    width: 34.69px;
+    height: 15px;
+    background-position: -165px -70px;
+    margin-left: 10px;
+  }
+  .more-l a:hover i {
+    background-position: -110px -70px;
+  }
+  .more-d a {
+    width: 14px;
+    height: 29px;
+  }
+  .more-d a i {
+    width: 14px;
+    height: 29px;
+    background-position: -70px -64px;
+  }
+  .more-d a:hover i {
+    background-position: -70px -10px;
+  }
+  #head {
+    height: 50px;
+  }
+  #head .head {
+    width: 100%;
+    overflow: visible;
+  }
+  #head .head h1 {
+    left: 20px;
+  }
+  #head .head #navBtn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+  #head .head #navBtn i {
+    width: 35px;
+    height: 30px;
+    display: block;
+    background: url(../images/icons.png) -379px -36px no-repeat;
+  }
+  #head .head #navBtn i:hover,
+  #head .head #navBtn i:active,
+  #head .head #navBtn i:visited {
+    background: url(../images/icons.png) -379px 0 no-repeat;
+  }
+  #head .head ul.nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    text-align: left;
+    height: auto;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  #head .head ul.nav li {
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+  #head .head ul.nav li.active {
+    background-image: none;
+  }
+  #head .head ul.nav li.active a {
+    font-weight: bold;
+  }
+  #head .head ul.nav li a {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    display: block;
+    padding: 0 20px;
+    color: #333 !important;
+    transition: 0.5s;
+  }
+  #head .head ul.nav li a:hover {
+    border-width: 0;
+    padding: 0 40px;
+  }
+  #head .head ul.nav li a.contact {
+    color: #6d6e34 !important;
+    font-weight: bold;
+    padding: 0 20px;
+    border: none;
+  }
+  #head .head ul.nav li a.contact:hover {
+    background: none;
+    padding: 0 40px;
+  }
+  #head .head ul.nav-bg {
+    display: none;
+  }
+  #head .head ul.nav-bg li {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+  }
+  #footer .footer-address {
+    padding: 20px 0;
+  }
+  #footer .footer-address .container {
+    width: 100%;
+    padding: 0 2em;
+  }
+  #footer .footer-address dl.address {
+    width: 300px;
+  }
+  #footer .footer-address dl.address dd {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #footer .footer-address dl.address dd i {
+    display: none;
+  }
+  #footer .footer-address div.weixin {
+    right: 20px;
+  }
+  #footer .footer-address div.weixin img {
+    width: 100px;
+    height: 100px;
+  }
+  #footer .footer-address div.weixin p {
+    display: none;
+  }
+  #footer .footer-address div.online {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #footer .footer-address div.online img {
+    max-width: 100%;
+  }
+  #footer .footer-address div.online p {
+    margin-top: 10px;
+  }
+  #footer .footer-address div.online {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #footer .footer-address div.online p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  #footer .footer-address div.online a {
+    width: 300px;
+    height: 60px;
+    background-position: 0 -190px;
+  }
+  #footer .footer-address div.online a:hover {
+    background-position: 0 -250px;
+  }
+  #footer .copyright {
+    padding-bottom: 20px;
+  }
+  #footer .copyright .footerLogo {
+    width: 73px;
+    height: 60px;
+    margin: 20px auto 0;
+  }
+  #footer .copyright .footerLogo img {
+    width: 73px;
+    height: 60px;
+  }
+  #footer .copyright ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #footer .copyright ul li {
+    padding: 0 4px;
+  }
+  #footer .copyright ul li a {
+    font-size: 14px;
+  }
+  #footer .copyright p.footerP {
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 559px) {
+  #huihu {
+    display: none !important;
+  }
+
+  .pageHead {
+    width: 100%;
+    height: 50px;
+  }
+  .container {
+    width: 300px;
+  }
+  .more-l {
+    margin-top: 40px;
+  }
+  .more-l a i {
+    width: 34.69px;
+    height: 15px;
+    background-position: -165px -70px;
+    margin-left: 10px;
+  }
+  .more-l a:hover i {
+    background-position: -110px -70px;
+  }
+  .more-d a {
+    width: 14px;
+    height: 29px;
+  }
+  .more-d a i {
+    width: 14px;
+    height: 29px;
+    background-position: -70px -64px;
+  }
+  .more-d a:hover i {
+    background-position: -70px -10px;
+  }
+  #head {
+    height: 50px;
+  }
+  #head .head {
+    width: 100%;
+    overflow: visible;
+  }
+  #head .head h1 {
+    left: 20px;
+    height: 60%;
+    top: 20%;
+  }
+  #head .head #navBtn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+  #head .head #navBtn i {
+    width: 35px;
+    height: 30px;
+    display: block;
+    background: url(../images/icons.png) -379px -36px no-repeat;
+  }
+  #head .head #navBtn i:hover,
+  #head .head #navBtn i:active,
+  #head .head #navBtn i:visited {
+    background: url(../images/icons.png) -379px 0 no-repeat;
+  }
+  #head .head ul.nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    text-align: left;
+    height: auto;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  #head .head ul.nav li {
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+  #head .head ul.nav li.active {
+    background-image: none;
+  }
+  #head .head ul.nav li.active a {
+    font-weight: bold;
+  }
+  #head .head ul.nav li a {
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    display: block;
+    padding: 0 20px;
+    color: #333 !important;
+    transition: 0.5s;
+  }
+  #head .head ul.nav li a:hover {
+    border-width: 0;
+    padding: 0 40px;
+  }
+  #head .head ul.nav li a.contact {
+    color: #6d6e34 !important;
+    font-weight: bold;
+    padding: 0 20px;
+    border: none;
+  }
+  #head .head ul.nav li a.contact:hover {
+    background: none;
+    padding: 0 40px;
+  }
+  #head .head ul.nav-bg {
+    display: none;
+  }
+  #footer .footer-address {
+    overflow: visible;
+    padding: 20px 0;
+  }
+  #footer .footer-address dl.address {
+    width: 300px;
+  }
+  #footer .footer-address dl.address dd {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #footer .footer-address dl.address dd i {
+    display: none;
+  }
+  #footer .footer-address div.weixin {
+    top: 240px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #eee;
+  }
+  #footer .footer-address div.weixin img {
+    width: 100%;
+    height: 100%;
+  }
+  #footer .footer-address div.weixin p {
+    display: none;
+  }
+  #footer .footer-address div.online {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #footer .footer-address div.online {
+    width: 300px;
+    margin-top: 20px;
+  }
+  #footer .footer-address div.online a {
+    width: 300px;
+    height: 60px;
+    background-position: 0 -310px;
+  }
+  #footer .footer-address div.online a:hover {
+    background-position: 0 -350px;
+  }
+  #footer .footer-address div.online {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #footer .footer-address div.online p {
+    display: none;
+  }
+  #footer .footer-address div.online a {
+    width: 300px;
+    height: 60px;
+    background-position: 0 -190px;
+  }
+  #footer .footer-address div.online a:hover {
+    background-position: 0 -250px;
+  }
+  #footer .copyright {
+    padding-bottom: 20px;
+    position: relative;
+    top: 340px;
+  }
+  #footer .copyright .footerLogo {
+    width: 73px;
+    height: 60px;
+    margin: 20px auto 0;
+  }
+  #footer .copyright .footerLogo img {
+    width: 73px;
+    height: 60px;
+  }
+  #footer .copyright ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #footer .copyright ul li {
+    padding: 0 4px;
+  }
+  #footer .copyright ul li a {
+    font-size: 14px;
+  }
+  #footer .copyright p.footerP {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+}

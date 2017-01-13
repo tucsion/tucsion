@@ -1,0 +1,53 @@
+@charset 'utf-8';
+
+#content{
+	text-align: center;
+	line-height: 0;
+	padding-bottom: 80px;
+	img{
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width:1400px) {
+	#content{
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		.content-bg{
+			position: absolute;
+			width: 100%;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			.sanjiao{
+				@x : 0.805;
+				@width : @x*1920px;
+				@height : @x*560px;
+				position: relative;
+				left: 50%;
+				margin-left: -@width*2;
+				width: 0;
+			    height: 0;
+			    border-top: @height*2 solid #f7f7f0;
+			    border-right: @width*4 solid transparent;
+			}
+			.lingxing{
+				@x : 1;
+				@width : @x*1920px;
+				position: relative;
+				left: 50%;
+				top: -451px;
+				margin-left: -@width*2;
+				width: @width*4;
+				height: 1310px;
+				-webkit-transform: skewY(-8.25deg);
+				-moz-transform: skewY(-8.25deg);
+				-o-transform: skewY(-8.25deg);
+				-ms-transform: skewY(-8.25deg);
+				transform: skewY(-8.25deg);
+				background: #333333;
+			}
+		}
+	}
+}

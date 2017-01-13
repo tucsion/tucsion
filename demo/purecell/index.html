@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		.imgBox{margin: 0 auto;text-align: center;}
+	</style>
+</head>
+<body>
+	<div class="imgBox "><img width="1692px" height="832px" class="lazy" data-original="img_01.jpg" alt=""></div>
+	<div class="imgBox "><img width="1692px" height="508px" class="lazy" data-original="img_02.jpg" alt=""></div>
+	<div class="imgBox "><img width="1692px" height="509px" class="lazy" data-original="img_03.jpg" alt=""></div>
+	<div class="imgBox "><img width="1692px" height="571px" class="lazy" data-original="img_04.jpg" alt=""></div>
+	<div class="imgBox "><img width="1692px" height="469px" class="lazy" data-original="img_05.jpg" alt=""></div>
+	<div class="imgBox "><img width="1692px" height="813px" class="lazy" data-original="img_06.jpg" alt=""></div>
+
+	<script type="text/javascript" src='jquery.js'></script>
+	<script type="text/javascript" src='flowup.js'></script>
+	<script type="text/javascript" src='jquery.lazyload.js'></script>
+	<script type="text/javascript">
+		$("img.lazy").lazyload({
+			threshold : 1,
+			threshold : 500
+		});
+		$(document).ready(function() {
+		  $("body").flowUp(".imgBox", { transalteY: 450,duration: 1 });
+		});
+	</script>
+</body>
+</html>

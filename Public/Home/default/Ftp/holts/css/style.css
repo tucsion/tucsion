@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+#case_detail_head{
+	background: #d30800;
+}
+
+#case_detail_head h3.title,
+#case_detail_head ul.tags,
+#case_detail_head p.info{
+	color: #fff;
+}
+
+
+
+#content{
+	line-height: 0;
+	text-align: center;
+	margin-bottom: 6em;
+}
+
+.headImg{
+	line-height: 0;
+	background: #d30800;
+}
+
+#content img,.headImg img{
+	max-width: 100%;
+}

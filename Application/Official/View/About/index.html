@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关于我们</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 关于我们
+		</div>
+		<div class="right">
+			<a href="{:U('Job/listJob')}">招聘</a> | 
+			<a href="{:U('Partner/listPartner')}">合作伙伴</a> | 
+			<a href="{:U('Team/listTeam')}">团队管理</a> | 
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+	<foreach name="about" item="v">
+		<table class="table table-row" cellspacing="1">
+			<input type="hidden" name="id" value="1">
+			<tr>
+				<th>Banner标题</th>
+				<td><input type="text" name="banner_title" value="{$v.banner_title}" class="input100"></td>
+			</tr>
+			<tr>
+				<th>Banner副标题</th>
+				<td><textarea name="banner_info">{$v.banner_info}</textarea></td>
+			</tr>
+			<tr>
+				<th>关于我们</th>
+				<td>
+					标题:<input type="text" name="about_title" value="{$v.about_title}" class="input50">
+					<textarea name="about_info">{$v.about_info}</textarea>
+					<br /><br />
+					Part1:<input type="text" name="about_p1_title" value="{$v.about_p1_title}" class="input50">
+					<textarea name="about_p1_info">{$v.about_p1_info}</textarea>
+					<br /><br />
+					Part2:<input type="text" name="about_p2_title" value="{$v.about_p2_title}" class="input50">
+					<textarea name="about_p2_info">{$v.about_p2_info}</textarea>
+					<br /><br />
+					Part3:<input type="text" name="about_p3_title" value="{$v.about_p3_title}" class="input50">
+					<textarea name="about_p3_info">{$v.about_p3_info}</textarea>
+					<br /><br />
+				</td>
+			</tr>
+			<tr>
+				<th>合作伙伴</th>
+				<td>
+					标题:<input type="text" name="partner_title" value="{$v.partner_title}" class="input50">
+					<textarea name="partner_info">{$v.partner_info}</textarea>
+					<br /><br />
+				</td>
+			</tr>
+			<tr>
+				<th>图森团队</th>
+				<td>
+					标题:<input type="text" name="team_title" value="{$v.team_title}" class="input50">
+					<textarea name="team_info">{$v.team_info}</textarea>
+					<br /><br />
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+	</foreach>
+	</form>
+</body>
+</html>

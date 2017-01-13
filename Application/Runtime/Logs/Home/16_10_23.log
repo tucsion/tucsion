@@ -1,0 +1,192 @@
+[ 2016-10-23T01:46:14+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T03:36:43+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T03:38:53+08:00 ] 141.101.104.57 /news/68.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-23T04:34:55+08:00 ] 112.25.90.48 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-23T04:35:59+08:00 ] 112.25.90.24 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-10-23T04:56:49+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T06:22:31+08:00 ] 182.118.22.220 /case/1073.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-10-23T06:41:22+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T06:41:58+08:00 ] 220.170.185.54 /fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Fckeditor
+
+[ 2016-10-23T06:41:58+08:00 ] 220.170.185.54 /fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Fckeditor
+
+[ 2016-10-23T06:42:00+08:00 ] 220.170.185.54 /manage/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Manage
+
+[ 2016-10-23T06:42:00+08:00 ] 220.170.185.54 /manage/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Manage
+
+[ 2016-10-23T06:42:01+08:00 ] 220.170.185.54 /system/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:System
+
+[ 2016-10-23T06:42:01+08:00 ] 220.170.185.54 /system/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:System
+
+[ 2016-10-23T06:42:01+08:00 ] 220.170.185.54 /include/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Include
+
+[ 2016-10-23T06:42:01+08:00 ] 220.170.185.54 /include/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Include
+
+[ 2016-10-23T06:42:02+08:00 ] 220.170.185.54 /en/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:02+08:00 ] 220.170.185.54 /en/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:02+08:00 ] 220.170.185.54 /en/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:03+08:00 ] 220.170.185.54 /en/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:03+08:00 ] 220.170.185.54 /en/system/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:03+08:00 ] 220.170.185.54 /en/system/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:03+08:00 ] 220.170.185.54 /en/manage/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:03+08:00 ] 220.170.185.54 /en/manage/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:En
+
+[ 2016-10-23T06:42:04+08:00 ] 220.170.185.54 /cn/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:04+08:00 ] 220.170.185.54 /cn/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:04+08:00 ] 220.170.185.54 /cn/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:04+08:00 ] 220.170.185.54 /cn/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:04+08:00 ] 220.170.185.54 /cn/system/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:05+08:00 ] 220.170.185.54 /cn/system/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:05+08:00 ] 220.170.185.54 /cn/manage/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:05+08:00 ] 220.170.185.54 /cn/manage/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Cn
+
+[ 2016-10-23T06:42:06+08:00 ] 220.170.185.54 /old/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:06+08:00 ] 220.170.185.54 /old/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:06+08:00 ] 220.170.185.54 /old/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:07+08:00 ] 220.170.185.54 /old/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:07+08:00 ] 220.170.185.54 /old/system/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:07+08:00 ] 220.170.185.54 /old/system/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:07+08:00 ] 220.170.185.54 /old/manage/fckeditor/editor/filemanager/connectors/asp/connector.asp
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T06:42:07+08:00 ] 220.170.185.54 /old/manage/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+ERR: 无法加载控制器:Old
+
+[ 2016-10-23T07:48:10+08:00 ] 141.101.106.95 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T08:34:48+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T08:40:34+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T09:42:04+08:00 ] 220.181.108.108 /news/26.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-23T11:56:04+08:00 ] 108.162.221.238 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T12:30:03+08:00 ] 172.68.11.76 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T14:07:04+08:00 ] 120.52.113.95 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T15:10:19+08:00 ] 120.52.113.95 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T15:10:20+08:00 ] 199.27.133.243 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T15:37:16+08:00 ] 220.181.108.104 /news/26.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-23T17:43:46+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T20:47:36+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T21:30:31+08:00 ] 108.162.221.239 /news/pid-2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-23T21:40:51+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-23T22:06:53+08:00 ] 123.125.67.165 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T22:54:41+08:00 ] 173.245.48.197 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T23:10:44+08:00 ] 162.243.126.220 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T23:10:46+08:00 ] 198.41.235.137 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-23T23:40:28+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+

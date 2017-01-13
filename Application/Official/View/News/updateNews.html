@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增新闻</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 
+			<a href="{:U('index')}">新闻列表</a> / 
+			{$oneNews[0]['title']}
+		</div>
+		<div class="right">
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<foreach name="oneNews" item="v">
+		<table class="table table-row" cellspacing="1">
+			<input type="hidden" name="id" value="{$v.id}">
+			<tr>
+				<th>分类</th>
+				<td>
+					<select name="fid">
+						<option value="0">请选择新闻分类</option>
+						<foreach name="newsCate" item="vo">
+						<option value="{$vo.id}" <eq name='vo.id' value='$v.fid'>selected="selected"</eq> >{$vo.name}</option>
+						</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>名称</th>
+				<td><input type="text" name="title" value="{$v.title}" class="input50"></td>
+			</tr>
+			<tr>
+				<th>SEO关键字</th>
+				<td><input type="text" name="keywords" class="input50" value="{$v.keywords}"><span class="remarks">多个关键字用英文逗号隔开</span></td>
+			</tr>
+			<tr>
+				<th>SEO描述</th>
+				<td><textarea name="description">{$v.description}</textarea></td>
+			</tr>
+			<tr>
+				<th>内容</th>
+				<td><textarea name="content" id="CONTENT" width="100%">{$v.content}</textarea></td>
+			</tr>
+			<tr>
+				<th>缩略图</th>
+				<td>
+					<img src="{$v.thumbnail|default='__IMG__/upload.png'}" class="uploadBtn" id="uploadOneBtn"/>
+					<input type="hidden" name="thumbnail" value="{$v.thumbnail}" id="ajaxImg"/>
+				</td>
+			</tr>
+			<tr>
+				<th>排序</th>
+				<td><input type="text" class="sort" name="sort" value="{$v.sort}"></td>
+			</tr>
+			<tr>
+				<th>其他设置</th>
+				<td style="line-height: 35px;"> 
+					<p>
+						作者: <input type="text" name="author" value="{$v.author}"> &nbsp;&nbsp;
+						来源: <input type="text" name="source" value="{$v.source}"> 
+					</p>
+					<p>
+						是否显示: 
+						<label for="is_display1">
+							<input type="radio" value="1" name="is_display" id="is_display1" <eq name="v.is_display" value="1">checked="checked"</eq>>是
+						</label>
+						<label for="is_display2">
+							<input type="radio" value="0" name="is_display" id="is_display2" <eq name="v.is_display" value="0">checked="checked"</eq>>否
+						</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						是否推荐到首页: 
+						<label for="is_index1">
+							<input type="radio" value="1" name="is_index" id="is_index1" <eq name="v.is_index" value="1">checked="checked"</eq> >是
+						</label>
+						<label for="is_index2">
+							<input type="radio" value="0" name="is_index" id="is_index2" <eq name="v.is_index" value="0">checked="checked"</eq>>否
+						</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						是否置顶: 
+						<label for="is_top1">
+							<input type="radio" value="1" name="is_top" id="is_top1" <eq name="v.is_top" value="1">checked="checked"</eq>>是
+						</label>
+						<label for="is_top2">
+							<input type="radio" value="0" name="is_top" id="is_top2" <eq name="v.is_top" value="0">checked="checked"</eq> >否
+						</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						是否推荐到内页: 
+						<label for="is_recommend1">
+							<input type="radio" value="1" name="is_recommend" id="is_recommend1" <eq name="v.is_recommend" value="1">checked="checked"</eq>>是
+						</label>
+						<label for="is_recommend2">
+							<input type="radio" value="0" name="is_recommend" id="is_recommend2" <eq name="v.is_recommend" value="0">checked="checked"</eq> >否
+						</label>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+		</foreach>
+	</form>
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<!-- 上传单张图片 -->
+	<script type="text/javascript" src="__JS__/jquery.form.min.js"></script>
+	<script type="text/javascript" src="__JS__/uploadOnePic.js"></script>
+	<form enctype="multipart/form-data" id="ajax-form">
+		<input type="file" name="file">
+	</form>
+	<!-- 实例化百度编辑器 -->
+	<script type="text/javascript" src="__UE__/ueditor.config.js"></script>
+	<script type="text/javascript" src="__UE__/ueditor.all.min.js"></script>
+	<script type="text/javascript">
+		var content = UE.getEditor('CONTENT');
+	</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>团队列表</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 关于我们
+		</div>
+		<div class="right">
+			<a href="{:U('Job/listJob')}">招聘</a> | 
+			<a href="{:U('Partner/listPartner')}">合作伙伴</a> | 
+			<a href="{:U('Team/listTeam')}" style="color: red;">团队管理</a> | 
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-row" cellspacing="1">
+			<tr>
+				<th>姓名</th>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<th>英文姓名</th>
+				<td><input type="text" name="en_name"></td>
+			</tr>
+			<tr>
+				<th>职位</th>
+				<td><input type="text" name="job"></td>
+			</tr>
+			<tr>
+				<th>缩略图</th>
+				<td>
+					<img src="__IMG__/upload.png" class="uploadBtn" id="uploadOneBtn"/>
+					<input type="hidden" name="thumbnail" id="ajaxImg"/>
+				</td>
+			</tr>
+			<tr>
+				<th>是否显示</th>
+				<td>
+					<label for="is_display1"><input type="radio" name="is_display" value="1" checked="checked">显示</label> 
+					<label for="is_display1"><input type="radio" name="is_display" value="0">不显示</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+	</form>
+
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<!-- 上传单张图片 -->
+	<script type="text/javascript" src="__JS__/jquery.form.min.js"></script>
+	<script type="text/javascript" src="__JS__/uploadOnePic.js"></script>
+	<form enctype="multipart/form-data" id="ajax-form">
+		<input type="file" name="file">
+	</form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>团队列表</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 关于我们
+		</div>
+		<div class="right">
+			<a href="{:U('Job/listJob')}">招聘</a> | 
+			<a href="{:U('Partner/listPartner')}">合作伙伴</a> | 
+			<a href="{:U('Team/addTeam')}" style="color: red;">新增团队管理</a> | 
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-col" cellspacing="1">
+			<tr>
+				<th>ID#</th>
+				<th>姓名</th>
+				<th>英文</th>
+				<th>职位</th>
+				<th>缩略图</th>
+				<th>是否显示</th>
+				<th>操作</th>
+			</tr>
+			<foreach name="list" item="v">
+			<tr>
+				<td>{$v.id}</td>
+				<td>{$v.name}</td>
+				<td>{$v.en_name}</td>
+				<td>{$v.job}</td>
+				<td><img src="{$v.thumbnail}" height="60" /></td>
+				<td><eq name="v.is_display" value="1">显示<else/>不显示</eq></td>
+				<td>
+					<a href="{:U('updateTeam')}/id/{$v.id}/">修改</a> |  
+					<a href="{:U('delTeam')}/id/{$v.id}/" class="delBtn">删除</a> | 
+					<input type="text" name="sort[{$v.id}]" value="{$v.sort}" class="sort">
+				</td>
+			</tr>
+			</foreach>
+			<tr>
+				<td colspan="6">
+					<div id="page">{$page}</div>
+				</td>
+				<td>
+					<input type="submit" value="排序">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/modal.js"></script>	
+</body>
+</html>

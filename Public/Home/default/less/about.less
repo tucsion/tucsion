@@ -1,0 +1,1079 @@
+@charset 'utf-8';
+#banner {
+    transition: 1s;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .text {
+        width: 100%;
+        text-align: center;
+        z-index: 9;
+        position: absolute;
+        color: #fff;
+        h4 { 
+            font-weight: 200;
+            margin-bottom: 0;
+        }
+        p {
+            font-weight: lighter;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    img {
+        margin: 0 auto;
+        position: absolute;
+        max-height: 100%;
+        top: 0;
+        left: 50%;
+    }
+}
+div.hr {
+    border-top: 1px solid #EEE;
+    width: 100%;
+}
+.grayscale(@num:1){ 
+    -webkit-filter: grayscale(@num);
+    -moz-filter: grayscale(@num);
+    -ms-filter: grayscale(@num);
+    -o-filter: grayscale(@num);
+    filter: grayscale(@num);
+    filter: gray;
+}
+.opacity(@num:50){
+    opacity: @num/100;
+    filter: alpha(opacity=@num);
+}
+.top {
+    transition: 1s;
+    text-align: center;
+    h3.title {
+        font-weight: 200;
+        color: #000;
+    }
+    p.info {
+        color: #666;
+        font-weight: lighter;
+    }
+}
+.about {
+    ul.about_ul {
+        overflow: hidden;
+        li {
+            transition: 1s;
+            float: left;
+            h4.name {
+                font-weight: 200;
+                color: #000;
+            }
+            p.description {
+                color: #666;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+.case {
+    ul.case_ul {
+        line-height: 0;
+        overflow: hidden;
+        li {
+            float: left;
+            transition: 0.5s;
+            .grayscale();
+            .opacity();
+            &:hover{
+                .grayscale(0);
+                .opacity(100);
+            }
+            a {
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+.team {
+    ul.team_ul {
+        overflow: hidden;
+        li {
+            float: left;
+            transition: 1s;
+            img {
+                width: 100%;
+                transition:0.5s;
+                .grayscale();
+                &:hover{
+                    .grayscale(0);
+                }
+            }
+            h4.name {
+                font-weight: 200;
+                color: #000;
+            }
+            p.description {
+                color: #666;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+.join {
+    ul.join_ul {
+        li {
+            width: 50%;
+            float: left;
+            border-bottom: 1px solid #eee;
+            overflow:hidden;
+            position: relative;
+            span.title {
+                color: #9fa14c;
+                font-size: 24px;
+                i {
+                    display: none;
+                }
+            }
+            dl {
+                height: 100%;
+                overflow-y: scroll;
+                color: #666;
+                font-weight: 200;
+                dt {}
+                dd {
+                    font-size: 14px;
+                }
+            }
+            a.btn {
+                position: absolute;
+            }
+        }
+    }
+    .join_mail {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        a {
+            color: #a0a14c;
+        }
+        p {
+            color: #666;
+        }
+        a.btn {
+            border: 1px solid #a0a14c;
+            border-radius: 8px;
+            transition: 1s;
+            &:hover {
+                border: 1px solid #6d6e34;
+                color: #fff;
+                background: #a0a14c;
+            }
+        }
+    }
+}
+//屏幕尺寸 >= 1400
+@media screen and (min-width:1400px) {
+    @sWidth: 1360px;
+    ul.subNav {
+        padding: 30px 0 !important;
+    }
+    #banner {
+        height: 420px;
+        .text {
+            h4 {
+                margin-top: 140px;
+                font-size: 36px;
+            }
+            p {
+                font-size: 18px;
+                margin-top: 30px;
+            }
+        }
+        img {
+            margin-left: -960px;
+        }
+    }
+    .about,
+    .case,
+    .team {
+        padding: 80px 0;
+    }
+    .top {
+        margin-bottom: 40px;
+        h3.title {
+            font-size: 32px;
+        }
+        p.info {
+            font-size: 18px;
+            line-height: 36px;
+            margin: 30px auto 0;
+            padding-left: 10em;
+            padding-right: 10em;
+        }
+    }
+    .about {
+        ul.about_ul {
+            width: 1460px;
+            li {
+                width: 420px;
+                margin-right: 50px;
+                img {
+                    width: 420px;
+                    height: 186px;
+                }
+                h4.name {
+                    font-size: 18px;
+                    padding: 30px 0 20px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .case {
+        ul.case_ul {
+            margin-top: -32px;
+            width: 1400px;
+            li {
+                width: 142px;
+                height: 142px;
+                margin: 32px 32px 0 0;
+                &:hover{
+                    background: #f4f4f4;
+                    padding:10px;
+                }
+            }
+        }
+    }
+    .team {
+        padding-bottom: 40px;
+        ul.team_ul {
+            width: 1400px;
+            li {
+                margin-right: 40px;
+                margin-bottom: 40px;
+                width: 240px;
+                h4.name {
+                    font-size: 18px;
+                    padding-top: 10px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .join {
+        ul.join_ul {
+            padding: 0 30px;
+            line-height: 32px;
+            li {
+                padding: 70px 120px 150px;
+                height: 700px;
+                a.btn {
+                    left: 120px;
+                    bottom: 50px;
+                }
+                span.title {
+                    display: block;
+                    font-size: 24px;
+                    padding-bottom: 20px;
+                }
+                dl {
+                    dt {
+                        margin-top: 10px;
+                        font-size: 16px;
+                    }
+                    dd {
+                        p {
+                            &:first-child {
+                                padding: 10px 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .join_mail {
+            padding: 70px 0;
+            p {
+                font-size: 16px;
+                padding-bottom: 50px;
+            }
+            a.btn {
+                padding: 20px 100px;
+                font-size: 22px;
+            }
+        }
+    }
+}
+// 1200 <= 屏幕尺寸 < 1400
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    @sWidth: 1170px;
+    ul.subNav {
+        padding: 30px 0 !important;
+    }
+    #banner {
+        height: 420px;
+        .text {
+            h4 {
+                margin-top: 140px;
+                font-size: 36px;
+            }
+            p {
+                font-size: 18px;
+                margin-top: 30px;
+            }
+        }
+        img {
+            margin-left: -960px;
+        }
+    }
+    .about,
+    .case,
+    .team {
+        padding: 80px 0;
+    }
+    .top {
+        margin-bottom: 40px;
+        h3.title {
+            font-size: 32px;
+        }
+        p.info {
+            font-size: 18px;
+            line-height: 36px;
+            margin: 30px auto 0;
+            padding-left: 8em;
+            padding-right: 8em;
+        }
+    }
+    .about {
+        ul.about_ul {
+            width: 1200px;
+            li {
+                width: 370px;
+                margin-right: 30px;
+                img {
+                    width: 370px;
+                    height: 164px;
+                }
+                h4.name {
+                    font-size: 18px;
+                    padding: 30px 0 20px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .case {
+        ul.case_ul {
+            margin-top: -32.4px;
+            width: 1210px;
+            li {
+                width: 168px;
+                height: 168px;
+                margin: 32.4px 32.4px 0 0;
+                &:hover{
+                    background: #f4f4f4;
+                    padding:10px;
+                }
+            }
+        }
+    }
+    .team {
+        padding-bottom: 40px;
+        ul.team_ul {
+            width: 1200px;
+            li {
+                margin-right: 30px;
+                margin-bottom: 30px;
+                width: 210px;
+                h4.name {
+                    font-size: 18px;
+                    padding-top: 10px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .join {
+        ul.join_ul {
+            padding: 0 30px;
+            line-height: 32px;
+            li {
+                padding: 70px 50px 150px;
+                height: 600px;
+                a.btn {
+                    left: 50px;
+                    bottom: 50px;
+                }
+                span.title {
+                    display: block;
+                    font-size: 24px;
+                    padding-bottom: 20px;
+                }
+                dl {
+                    dt {
+                        margin-top: 10px;
+                        font-size: 16px;
+                    }
+                    dd {
+                        p {
+                            &:first-child {
+                                padding: 10px 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .join_mail {
+            padding: 70px 0;
+            p {
+                font-size: 16px;
+                padding-bottom: 50px;
+            }
+            a.btn {
+                padding: 20px 100px;
+                font-size: 22px;
+            }
+        }
+    }
+}
+// 992 <= 屏幕尺寸 < 1200
+@media screen and (min-width:992px) and (max-width:1199px) {
+    @sWidth: 970px;
+    ul.subNav {
+        padding: 30px 0 !important;
+    }
+    #banner {
+        height: 300px;
+        .text {
+            h4 {
+                margin-top: 100px;
+                font-size: 30px;
+            }
+            p {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+        img {
+            margin-left: -685.5px;
+        }
+    }
+    .about,
+    .case,
+    .team {
+        padding: 40px 0;
+    }
+    .top {
+        margin-bottom: 20px;
+        h3.title {
+            font-size: 28px;
+        }
+        p.info {
+            font-size: 16px;
+            line-height: 30px;
+            margin: 10px auto 0;
+            padding-left: 6em;
+            padding-right: 6em;
+        }
+    }
+    .about {
+        ul.about_ul {
+            width: 990px;
+            li {
+                width: 310px;
+                margin-right: 20px;
+                img {
+                    width: 310px;
+                    height: 137px;
+                }
+                h4.name {
+                    font-size: 18px;
+                    padding: 20px 0 10px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .case {
+        ul.case_ul {
+            margin-top: -26px;
+            width: 1000px;
+            li {
+                width: 140px;
+                height: 140px;
+                margin: 26px 26px 0 0;
+                &:hover{
+                    background: #f4f4f4;
+                    padding:10px;
+                }
+            }
+        }
+    }
+    .team {
+        padding-bottom: 30px;
+        ul.team_ul {
+            width: 1000px;
+            li {
+                margin-right: 30px;
+                margin-bottom: 30px;
+                width: 170px;
+                h4.name {
+                    font-size: 18px;
+                    padding-top: 10px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .join {
+        ul.join_ul {
+            line-height: 32px;
+            li {
+                padding: 30px 50px 130px;
+                height: 600px;
+                a.btn {
+                    left: 50px;
+                    bottom: 30px;
+                }
+                span.title {
+                    display: block;
+                    font-size: 24px;
+                    padding-bottom: 20px;
+                }
+                dl {
+                    dt {
+                        font-size: 16px;
+                    }
+                    dd {
+                        p {
+                            &:first-child {
+                                padding: 10px 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .join_mail {
+            padding: 70px 0;
+            p {
+                font-size: 16px;
+                padding-bottom: 50px;
+            }
+            a.btn {
+                padding: 15px 70px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+// 768 <= 屏幕尺寸 < 992
+@media screen and (min-width:768px) and (max-width:991px) {
+    @sWidth: 750px;
+    ul.subNav {
+        padding: 30px 0 !important;
+    }
+    #banner {
+        height: 260px;
+        .text {
+            h4 {
+                margin-top: 90px;
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+        img {
+            margin-left: -594.5px;
+        }
+    }
+    .about,
+    .case,
+    .team {
+        padding: 40px 0;
+    }
+    .top {
+        margin-bottom: 20px;
+        h3.title {
+            font-size: 24px;
+        }
+        p.info {
+            font-size: 14px;
+            line-height: 25px;
+            margin: 10px auto 0;
+            padding-left: 4em;
+            padding-right: 4em;
+        }
+    }
+    .about {
+        ul.about_ul {
+            width: 800px;
+            li {
+                width: 240px;
+                margin-right: 15px;
+                img {
+                    width: 240px;
+                    height: 106px;
+                }
+                h4.name {
+                    font-size: 18px;
+                    padding: 10px 0;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .case {
+        ul.case_ul {
+            padding-top: 20px;
+            width: 750px;
+            li {
+                width: 125px;
+                height: 125px;
+                margin: 0;
+                border-right:1px solid #ccc;
+                border-bottom:1px solid #ccc;
+                &:nth-child(6n){
+                    border-right:none;
+                }
+                &:nth-child(19),&:nth-child(20),&:nth-child(21),&:nth-child(22),&:nth-child(23),&:nth-child(24){
+                    border-bottom: none;
+                }
+                a{
+                    img{
+                        padding:10px;
+                        &:hover{
+                            background: #eee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .team {
+        padding-bottom: 20px;
+        ul.team_ul {
+            width: 770px;
+            li {
+                margin-right: 20px;
+                margin-bottom: 20px;
+                width: 134px;
+                h4.name {
+                    font-size: 16px;
+                    padding-top: 10px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .join {
+        ul.join_ul {
+            line-height: 30px;
+            li {
+                padding: 30px 20px 130px;
+                height: 500px;
+                a.btn {
+                    left: 20px;
+                    bottom: 30px;
+                }
+                span.title {
+                    display: block;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                dl {
+                    dt {
+                        font-size: 16px;
+                    }
+                    dd {
+                        p {
+                            &:first-child {
+                                padding: 10px 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .join_mail {
+            padding: 50px 0;
+            p {
+                font-size: 16px;
+                padding-bottom: 30px;
+            }
+            a.btn {
+                padding: 10px 50px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+// 560 <= 屏幕尺寸 < 768
+@media screen and (min-width:560px) and (max-width:767px) {
+    @sWidth: 520px;
+    ul.subNav {
+        padding: 30px 0 !important;
+    }
+    #banner {
+        height: 220px;
+        .text {
+            h4 {
+                margin-top: 70px;
+                font-size: 28px;
+            }
+            p {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+        }
+        img {
+            margin-left: -457px;
+        }
+    }
+    .about,
+    .case,
+    .team {
+        padding: 40px 0;
+    }
+    .top {
+        margin-bottom: 30px;
+        h3.title {
+            font-size: 24px;
+        }
+        p.info {
+            font-size: 14px;
+            color: #666;
+            line-height: 30px;
+            margin: 10px auto 0;
+        }
+    }
+    .about {
+        ul.about_ul {
+            width: 100%;
+            li {
+                width: 100%;
+                margin-bottom: 2em;
+                img {
+                    width: 200px;
+                    height: 106px;
+                    float: left;
+                    margin-right: 1em;
+                }
+                h4.name {
+                    font-size: 18px;
+                    padding: 0;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .case {
+        ul.case_ul {
+            width: 530px;
+            li {
+                width: 86px;
+                height: 86px;
+                margin: 1px 1px 0 0;
+                background: #f4f4f4;
+                padding:10px;
+            }
+        }
+    }
+    .team {
+        padding-bottom: 50px;
+        ul.team_ul {
+            line-height: 0;
+            width: 530px;
+            li {
+                margin-right: 5px;
+                margin-bottom: 5px;
+                width: 100px;
+                h4.name {
+                    display: none;
+                    font-size: 16px;
+                    padding-top: 10px;
+                }
+                p.description {
+                    display: none;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .join {
+        ul.join_ul {
+            width: 100%;
+            padding: 50px 0;
+            overflow: hidden;
+            li {
+                width: 100%;
+                height: auto !important;
+                &.active {
+                    span.title {
+                        color: #a0a14c;
+                    }
+                    a.btn {
+                        display: block;
+                        top: 16px;
+                        right: 0;
+                        font-size: 12px;
+                    }
+                    span.title {
+                        i {
+                            display: none;
+                        }
+                    }
+                }
+                span.title {
+                    width: 100%;
+                    height: 50px;
+                    display: block;
+                    font-size: 16px;
+                    line-height: 50px;
+                    font-weight: 200;
+                    color: #666;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    i {
+                        display: block;
+                        font-size: 12px;
+                        color: #999;
+                        float: right;
+                        font-style: normal;
+                    }
+                }
+                dl {
+                    display: none;
+                    padding: 20px 0;
+                    line-height: 25px;
+                    dd {
+                        p {
+                            &:first-child {
+                                line-height: 40px;
+                            }
+                        }
+                    }
+                }
+                a.btn {
+                    display: none;
+                }
+            }
+        }
+        .join_mail {
+            padding: 0 0 50px;
+            p {
+                font-size: 16px;
+                padding-bottom: 30px;
+            }
+            a.btn {
+                padding: 10px 50px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+//屏幕尺寸 < 522
+@media screen and (max-width:559px) {
+    @sWidth: 100%; //300px
+    ul.subNav {
+        padding: 15px 0 !important;
+    }
+    #banner {
+        height: 180px;
+        .text {
+            h4 {
+                margin-top: 50px;
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+        img {
+            margin-left: -411.5px;
+        }
+    }
+    .about,
+    .case,
+    .team {
+        padding: 40px 0;
+    }
+    .top {
+        margin-bottom: 40px;
+        h3.title {
+            font-size: 20px;
+        }
+        p.info {
+            font-size: 14px;
+            color: #666;
+            line-height: 20px;
+            margin: 10px auto 0;
+        }
+    }
+    .about {
+        ul.about_ul {
+            width: 100%;
+            li {
+                width: 100%;
+                margin-bottom: 30px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                img {
+                    width: 100%;
+                }
+                h4.name {
+                    font-size: 18px;
+                    padding-top: 5px;
+                }
+                p.description {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .case {
+        ul.case_ul {
+            width: 305px;
+            li {
+                width: 74.25px;
+                height: 74.25px;
+                margin: 1px 1px 0 0;
+                background: #f4f4f4;
+                padding:10px;
+            }
+        }
+    }
+    .team {
+        padding-bottom: 50px;
+        ul.team_ul {
+            line-height: 0;
+            width: 305px;
+            li {
+                margin-right: 1px;
+                margin-bottom: 1px;
+                width: 59.2px;
+                h4.name {
+                    display: none;
+                    font-size: 16px;
+                    padding-top: 10px;
+                }
+                p.description {
+                    display: none;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .join {
+        ul.join_ul {
+            width: 100%;
+            padding: 30px 0;
+            overflow: hidden;
+            li {
+                width: 100%;
+                height: auto !important;
+                &.active {
+                    span.title {
+                        color: #a0a14c;
+                    }
+                    a.btn {
+                        display: block;
+                        top: 11px;
+                        right: 0;
+                        font-weight: lighter;
+                        font-size: 12px;
+                    }
+                    span.title {
+                        i {
+                            display: none;
+                        }
+                    }
+                }
+                span.title {
+                    width: 100%;
+                    height: 40px;
+                    display: block;
+                    font-size: 16px;
+                    line-height: 40px;
+                    font-weight: 200;
+                    color: #666;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    i {
+                        display: block;
+                        font-size: 12px;
+                        color: #999;
+                        float: right;
+                        font-style: normal;
+                    }
+                }
+                dl {
+                    display: none;
+                    padding: 20px 0;
+                    dd {
+                        line-height: 20px;
+                        font-size: 12px;
+                        p {
+                            &:first-child {
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+                a.btn {
+                    display: none;
+                }
+            }
+        }
+        .join_mail {
+            padding: 0 0 50px;
+            p {
+                font-size: 16px;
+                padding-bottom: 30px;
+            }
+            a.btn {
+                padding: 10px 25px;
+                font-size: 14px;
+            }
+        }
+    }
+}

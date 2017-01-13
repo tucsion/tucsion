@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻列表</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 新闻列表
+		</div>
+		<div class="right">
+			<a href="{:U('addNews')}">新增新闻</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-col" cellspacing="1">
+			<tr>
+				<th>#ID</th>
+				<th>标题</th>
+				<th>所属分类</th>
+				<th>发布时间</th>
+				<th>操作</th>
+			</tr>
+			<foreach name="news" item="v">
+			<tr>
+				<td>{$v.id}</td>
+				<td>{$v.title}</td>
+				<td>{$v.cate}</td>
+				<td>{$v.post_time|date='Y-m-d',###}</td>
+				<td>
+					<a href="{:U('delNews')}/id/{$v.id}" class="delBtn">删除</a> | 
+					<a href="{:U('updateNews')}/id/{$v.id}">修改</a> | 
+					<input type="text" name="sort[{$v.id}]" value="{$v.sort}" class="sort">
+				</td>
+			</tr>
+			</foreach>
+			<tr>
+				<td colspan="4">
+					<div id="page">{$page}</div>
+				</td>
+				<td>
+					<input type="submit" value="排序">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/modal.js"></script>
+</body>
+</html>

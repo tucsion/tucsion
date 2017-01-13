@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改用户</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('index')}">权限管理</a> / 修改用户
+		</div>
+		<div class="right">
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-row" cellspacing="1">
+			<input type="hidden" name="id" value="{$user.id}">
+			<input type="hidden" name="old-pwd" value="{$user.password}">
+			<tr>
+				<th>用户名</th>
+				<td><input type="text" name="username" value="{$user.username}"></td>
+			</tr>
+			<tr>
+				<th>密码</th>
+				<td><input type="password" name="password"></td>	
+			</tr>
+			<tr>
+				<th>锁定状态</th>
+				<td>
+					<label for="lock1">
+						<input type="radio" name="lock" value="0" id="lock1" <if condition="$user.lock eq 0">checked="checked"</if> /> 不锁定 &nbsp;&nbsp;
+					</label>
+					<label for="lock2">
+						<input type="radio" name="lock" value="1" id="lock2" <if condition="$user.lock eq 1">checked="checked"</if> /> 锁定
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>所属部门</th>
+				<td>
+					<foreach name='group' item='vo'>
+					<label for="group{$vo.id}">
+						<input type="checkbox" id="group{$vo.id}" name="group[]" value="{$vo.id}" <in name="vo.id" value="$old_group">checked='checked'</in> >{$vo.title}
+					</label>
+					</foreach>
+				</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

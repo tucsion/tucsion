@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>配置权限</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+	<link rel="stylesheet" href="__CSS__/rule.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('index')}">权限管理</a> / 配置权限
+		</div>
+		<div class="right">
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<div class="rule">
+			<input type="hidden" name="id" value="{$group_id}" />
+			<foreach name='rule' item='app'>
+			<div class="app">
+				<h3>
+					<label for="app{$app.id}">
+						<input type="checkbox" name="rule[]" value="{$app.id}" id="app{$app.id}" level='1' <in name='app.id' value='$Think.get.rules'>checked='checked'</in> >
+						{$app.title}
+					</label>
+				</h3>
+				<dl class="action">
+					<foreach name='app.child' item='method'>
+					<dd>
+						<label for="method{$method.id}">
+							<input type="checkbox" name="rule[]" value="{$method.id}" id="method{$method.id}" level='3' <in name='method.id' value='$Think.get.rules'>checked='checked'</in> >
+							{$method.title}
+						</label>
+					</dd>
+					</foreach>
+				</dl>
+			</div>
+			</foreach>
+		</div>
+		<input type="submit" value="提交" class="submitBtn">
+	</form>
+	<script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('input[level=1]').click(function() {
+				var inputs = $(this).parents('.app').find('input');
+				$(this).attr('checked')?inputs.attr('checked', 'checked'):inputs.removeAttr('checked');
+			});
+			$('input[level=2]').click(function() {
+				var inputs = $(this).parents('dl').find('input');
+				$(this).attr('checked')?inputs.attr('checked', 'checked'):inputs.removeAttr('checked');
+			});
+		});
+	</script>
+</body>
+</html>

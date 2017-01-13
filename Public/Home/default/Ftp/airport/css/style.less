@@ -1,0 +1,89 @@
+@charset 'utf-8';
+
+//屏幕尺寸 >= 1400
+@media screen and (min-width:1400px) {
+
+	#content{
+		position: relative;
+		padding-bottom: 80px;
+		height: auto;
+		.contentBg{
+			width: 100%;
+			position: relative;
+			top: 0;
+			left: 0;
+			.first{
+				height:570px;
+				background:-webkit-gradient(linear, 0 0, 0 100%, from(#1473c6), to(#0d4f89));
+				background:-moz-linear-gradient(top, #1473c6,#0d4f89);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1473c6,endColorstr=#0d4f89,grandientType=0);
+				width:100%;
+			}
+			.second{
+				height: 1455px;
+				width:100%;
+				overflow-x: hidden;
+				position: relative;
+				background:-webkit-gradient(linear, 0 0, 0 100%, from(#1473c6), to(#0d4f89));
+				background:-moz-linear-gradient(top, #1473c6,#0d4f89);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1473c6,endColorstr=#0d4f89,grandientType=0);
+				
+				.tixing{
+					position: absolute;
+					@base:960px;
+					@beishu:1.7;
+					left: 50%;
+					margin-left: -@base*@beishu;
+				 	border-top: 1460px solid #fff; 
+					border-right: 2.0*@base*@beishu solid transparent; 
+				}
+			}
+			.three{
+				height: 1120px;
+				width:100%;
+				overflow-x: hidden;
+				position: relative;
+				background:-webkit-gradient(linear, 0 0, 0 100%, from(#1473c6), to(#0d4f89));
+				background:-moz-linear-gradient(top, #1473c6,#0d4f89);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1473c6,endColorstr=#0d4f89,grandientType=0);
+				
+				.tixing{
+					position: absolute;
+					left: 50%;
+					margin-left: -1920px;
+				 	border-top: 1120px solid #fff; 
+					border-right: 3840px solid transparent; 
+				}
+			}
+		}
+		.contentMain{
+			width: 1360px;
+			height: auto;
+			overflow: hidden;
+			position: absolute;
+			top:0;
+			left: 50%;
+			margin-left: -680px;
+			line-height: 0;
+		}
+	}
+
+}
+
+
+//屏幕尺寸 < 1200
+@media screen and (max-width:1200px) {
+	#content{
+		.contentBg{
+			display: none;
+		}
+		.contentMain{
+			width: 100%;
+			line-height: 0;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	
+}	

@@ -1,0 +1,256 @@
+#indexBanner {
+  width: 100%;
+}
+#indexBanner ul {
+  height: 100%;
+}
+#indexBanner ul li .indexBanner {
+  position: relative;
+  overflow: hidden;
+}
+#indexBanner ul li .indexBanner img {
+  position: absolute;
+  top: 0;
+  transition: 1s;
+}
+#indexBanner ul li .indexBanner .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+}
+#indexBanner ul li .indexBanner .container a.bannerBtn {
+  background: none;
+  display: inline-block;
+  transition: 0.5s;
+  border-radius: 3px;
+  background: #a0a14d;
+  color: #fff;
+  border: 1px solid #a0a14d;
+}
+#indexBanner ul li .indexBanner .container a.bannerBtn:hover {
+  border: 1px solid #6d6e34;
+  background: none;
+  color: #6d6e34;
+}
+#indexBanner .more {
+  opacity: 0.1;
+position:absolute;
+  filter: alpha(opacity=10);
+}
+#indexBanner .focus {
+  position: absolute;
+}
+#indexBanner .focus dl {
+  width: 30px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#indexBanner .focus dl dd {
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  
+  margin: 10px 0;
+  border-radius: 50%;
+  font-size: 0;
+  display: block;
+  float: left;
+  cursor: pointer;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+#indexBanner .focus dl dd.current {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+@media screen and (min-width: 1400px) {
+  #indexBanner ul li .indexBanner .container {
+    margin-left: -680px;
+  }
+  #indexBanner ul li .indexBanner .container p.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  #indexBanner ul li .indexBanner .container p.description {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  #indexBanner ul li .indexBanner .container a.bannerBtn {
+    padding: 6px 18px;
+    font-size: 18px;
+  }
+  #indexBanner .more {
+
+    bottom: 45px;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+  }
+  #indexBanner .focus dl {
+    padding: 0 2px;
+  }
+  #indexBanner .focus dl dd {
+    width: 14px;
+    height: 13.5px;
+    background-position: -455px -13.5px;
+  }
+  #indexBanner .focus dl dd.current {
+    background-position: -455px 0;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #indexBanner ul li .indexBanner .container {
+    margin-left: -585px;
+  }
+  #indexBanner ul li .indexBanner .container p.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  #indexBanner ul li .indexBanner .container p.description {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  #indexBanner ul li .indexBanner .container a.bannerBtn {
+    padding: 6px 18px;
+    font-size: 18px;
+  }
+  #indexBanner .more {
+    bottom: 45px;
+  }
+  #indexBanner .focus dl {
+    padding: 0 2px;
+  }
+  #indexBanner .focus dl dd {
+    width: 14px;
+    height: 13.5px;
+    background-position: -455px -13.5px;
+  }
+  #indexBanner .focus dl dd.current {
+    background-position: -455px 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #indexBanner ul li .indexBanner .container {
+    margin-left: -485px;
+  }
+  #indexBanner ul li .indexBanner .container p.title {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  #indexBanner ul li .indexBanner .container p.description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #indexBanner ul li .indexBanner .container a.bannerBtn {
+    padding: 6px 18px;
+    font-size: 18px;
+  }
+  #indexBanner .more {
+    bottom: 40px;
+  }
+  #indexBanner .focus dl {
+    padding: 0 2px;
+  }
+  #indexBanner .focus dl dd {
+    width: 14px;
+    height: 13.5px;
+    background-position: -455px -13.5px;
+  }
+  #indexBanner .focus dl dd.current {
+    background-position: -455px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #indexBanner ul li .indexBanner .container {
+    margin-left: -375px;
+  }
+  #indexBanner ul li .indexBanner .container p.title {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  #indexBanner ul li .indexBanner .container p.description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #indexBanner ul li .indexBanner .container a.bannerBtn {
+    padding: 6px 18px;
+    font-size: 18px;
+  }
+  #indexBanner .more {
+    bottom: 40px;
+  }
+  #indexBanner .focus dl {
+    padding: 0 2px;
+  }
+  #indexBanner .focus dl dd {
+    width: 14px;
+    height: 13.5px;
+    background-position: -455px -13.5px;
+  }
+  #indexBanner .focus dl dd.current {
+    background-position: -455px 0;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 767px) {
+  #indexBanner ul li .indexBanner .container {
+    margin-left: -260px;
+  }
+  #indexBanner ul li .indexBanner .container p.title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  #indexBanner ul li .indexBanner .container p.description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  #indexBanner ul li .indexBanner .container a.bannerBtn {
+    padding: 6px 18px;
+    font-size: 16px;
+  }
+  #indexBanner .more {
+    bottom: 35px;
+  }
+  #indexBanner .focus dl {
+    padding: 0 2px;
+  }
+  #indexBanner .focus dl dd {
+    width: 14px;
+    height: 13.5px;
+    background-position: -455px -13.5px;
+  }
+  #indexBanner .focus dl dd.current {
+    background-position: -455px 0;
+  }
+}
+@media screen and (max-width: 559px) {
+  #indexBanner ul li .indexBanner .container {
+    margin-left: -150px;
+  }
+  #indexBanner ul li .indexBanner .container p.title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  #indexBanner ul li .indexBanner .container p.description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  #indexBanner ul li .indexBanner .container a.bannerBtn {
+    padding: 6px 18px;
+    font-size: 16px;
+  }
+  #indexBanner .more {
+    bottom: 40px;
+  }
+  #indexBanner .focus dl {
+    padding: 0 2px;
+  }
+  #indexBanner .focus dl dd {
+    width: 14px;
+    height: 13.5px;
+    background-position: -455px -13.5px;
+  }
+  #indexBanner .focus dl dd.current {
+    background-position: -455px 0;
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>系统设置</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+	<link rel="stylesheet" href="__UM__/themes/default/css/umeditor.min.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			当前位置 : <a href="#">官网管理</a> / 系统设置
+		</div>
+		<div class="right">
+			<a href="#">新增</a>
+			<a href="">列表</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<foreach name="system" item="v">
+	<form action="{:U('index')}" method="post">
+		<table class="table table-row" cellspacing="1">
+			<input type="hidden" name="id" value="1">
+			<tr>
+				<th>网站名称</th>
+				<td><input type="text" name="web_name" value="{$v.web_name}" class="input50"></td>
+			</tr>
+			<tr>
+				<th>根网址</th>
+				<td><input type="text" name="web_url" value="{$v.web_url}" class="input50"></td>
+			</tr>
+			<tr>
+				<th>SEO关键字</th>
+				<td><input type="text" name="web_keywords" value="{$v.web_keywords}" class="input100"></td>
+			</tr>
+			<tr>
+				<th>SEO描述</th>
+				<td><textarea name="web_description">{$v.web_description}</textarea></td>
+			</tr>
+			<tr>
+				<th>联系电话</th>
+				<td><input type="text" name="web_telphone" value="{$v.web_telphone}" class="input50"><span class="remarks">多个电话用英文逗号隔开</span></td>
+			</tr>
+			<tr>
+				<th>传真</th>
+				<td><input type="text" name="web_fax" value="{$v.web_fax}" class="input100"></td>
+			</tr>
+			<tr>
+				<th>联系地址</th>
+				<td><input type="text" name="web_address" value="{$v.web_address}" class="input100"></td>
+			</tr>
+			<tr>
+				<th>客服QQ</th>
+				<td><input type="text" name="web_qq" value="{$v.web_qq}" class="input50"><span class="remarks">多个QQ用英文逗号隔开</span></td>
+			</tr>
+			<tr>
+				<th>版权描述</th>
+				<td><textarea name="web_copyright" id="UM1">{$v.web_copyright}</textarea></td>
+			</tr>
+			<tr>
+				<th>统计代码</th>
+				<td><textarea name="web_count">{$v.web_count}</textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="提交修改"></td>
+			</tr>
+		</table>
+	</form>
+	</foreach>
+
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__UM__/umeditor.min.js"></script>
+	<script type="text/javascript" src="__UM__/umeditor.config.js"></script>
+	<script type="text/javascript">
+		var UM1 = UM.getEditor('UM1',{
+			initialFrameWidth:"100%"
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<extend name="Base:base" />
+<block name="title">{$detail[0].title}_案例_</block>
+<block name="keywords">{$detail[0].keywords}</block>
+<block name="description">{$detail[0].description}</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/case.css">
+</block>
+<block name="main">	
+	<div class="pageHead"></div>
+<foreach name='detail' item='v'>
+	<div id="case_detail_head">
+		<div class="container">
+			<h3 class="title">{$v.title}</h3>
+			<p class="info">
+				{$v.description}
+			</p>
+			<ul class="tags">
+			<foreach name='v.tags' item='vo'>
+				<li>{$vo}</li>
+			</foreach>
+			</ul>
+		</div>
+		<!-- 轮播图 -->
+		<div class="container">
+			<ul class="banner">
+				<foreach name='v.banner' item='vo'>
+				<li><img src="{$vo}" alt=""></li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+	<div class="case_detail_content container">
+		{$v.content}
+	</div>
+	<div class="more-case picScroll-left">
+		<p class="title">相关案例</p>
+		<div class="ul_box bd">
+			<ul class="more-case-list">
+				<foreach name='recommend' item='v'>
+				<li>
+					<a class="img" href="/{$v.cate_dir}/{$v.id}.html">
+						<img src="{$v.thumbnail}" alt="{$v.title}" title="{$v.title}" />
+					</a>
+					<a class="title" href="/{$v.cate_dir}/{$v.id}.html">{$v.title}</a>
+				</li>
+				</foreach>
+			</ul>
+		</div>
+		<div class="hd">
+			<a href="javascript:void(0);" class="prev"><img src="__IMG__/news-prev.png" /></a>
+			<a href="javascript:void(0);" class="next"><img src="__IMG__/news-next.png" /></a>
+		</div>
+	</div>
+</foreach>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript">
+		jQuery(".picScroll-left").slide({
+			titCell:".hd ul",
+			mainCell:".bd ul",
+			autoPage:true,
+			effect:"leftLoop",
+			autoPlay:true,
+			scroll:3,
+			vis:3,
+			easing:"easeInBack",
+			delayTime:1000,
+			interTime:4000
+		});
+	</script>
+</block>

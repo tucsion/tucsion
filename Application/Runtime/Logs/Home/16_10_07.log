@@ -1,0 +1,132 @@
+[ 2016-10-07T03:22:29+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T04:16:52+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T04:24:00+08:00 ] 220.181.108.119 /news/4.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-07T04:44:21+08:00 ] 141.101.106.95 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T04:44:21+08:00 ] 162.158.153.101 /a/wangluopinpaishejiyuguanli/20141101/2.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-07T04:44:24+08:00 ] 162.158.153.101 /a/wangluopinpaishejiyuguanli/20141101/3.html
+ERR: 无法加载控制器:A
+
+[ 2016-10-07T04:50:36+08:00 ] 157.55.39.117 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T07:24:55+08:00 ] 121.42.0.16 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-10-07T07:25:11+08:00 ] 121.42.0.16 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-10-07T07:25:16+08:00 ] 121.42.0.16 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-10-07T07:25:18+08:00 ] 121.42.0.16 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-10-07T07:25:18+08:00 ] 121.42.0.16 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-10-07T07:25:27+08:00 ] 121.42.0.16 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-10-07T07:25:30+08:00 ] 121.42.0.16 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-10-07T07:25:35+08:00 ] 121.42.0.16 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-07T07:25:38+08:00 ] 121.42.0.16 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-10-07T08:11:47+08:00 ] 66.249.66.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T10:43:44+08:00 ] 117.34.13.42 /news/7.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-07T10:43:54+08:00 ] 117.34.13.42 /news/6.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-10-07T10:43:57+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T13:19:03+08:00 ] 198.41.235.137 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T13:19:11+08:00 ] 108.162.219.18 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-07T14:43:35+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T14:43:36+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T15:10:30+08:00 ] 120.52.113.135 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T15:46:46+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T15:46:48+08:00 ] 108.162.245.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T16:13:46+08:00 ] 116.31.126.107 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-10-07T16:41:13+08:00 ] 157.55.39.117 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T17:07:57+08:00 ] 121.42.0.17 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-10-07T17:08:12+08:00 ] 121.42.0.17 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-10-07T17:08:17+08:00 ] 121.42.0.17 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-10-07T17:08:19+08:00 ] 121.42.0.17 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-10-07T17:08:19+08:00 ] 121.42.0.17 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-10-07T17:08:28+08:00 ] 121.42.0.17 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-10-07T17:21:04+08:00 ] 157.55.39.117 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T18:54:21+08:00 ] 58.211.2.114 /static/css/module/icp/icp.css
+ERR: 无法加载控制器:Static
+
+[ 2016-10-07T20:58:05+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T21:08:54+08:00 ] 66.249.66.139 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T21:21:26+08:00 ] 141.101.104.98 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-10-07T22:39:09+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+

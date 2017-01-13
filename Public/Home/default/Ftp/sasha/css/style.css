@@ -1,0 +1,46 @@
+@charset 'utf-8';
+#content {
+  text-align: center;
+  line-height: 0;
+  padding-bottom: 80px;
+}
+#content img {
+  max-width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  #content {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  #content .content-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #content .content-bg .sanjiao {
+    position: relative;
+    left: 50%;
+    margin-left: -3091.2px;
+    width: 0;
+    height: 0;
+    border-top: 901.6px solid #f7f7f0;
+    border-right: 6182.4px solid transparent;
+  }
+  #content .content-bg .lingxing {
+    position: relative;
+    left: 50%;
+    top: -451px;
+    margin-left: -3840px;
+    width: 7680px;
+    height: 1310px;
+    -webkit-transform: skewY(-8.25deg);
+    -moz-transform: skewY(-8.25deg);
+    -o-transform: skewY(-8.25deg);
+    -ms-transform: skewY(-8.25deg);
+    transform: skewY(-8.25deg);
+    background: #333333;
+  }
+}

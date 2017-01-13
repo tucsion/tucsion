@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分类管理</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+	<link rel="stylesheet" href="__CSS__/category.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 导航列表
+		</div>
+		<div class="right">
+			<a href="{:U('addCate')}">新增顶级栏目</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+	<ul class="nav">
+		<foreach name="navTree" item="v">
+		<li>
+			<div class="top">
+				<div class="left">{$v.name}</div>
+				<div class="tool">
+					<a href="{:U('addCate')}/fid/{$v.id}">添加子栏目</a> | 
+					<a href="{:U('updateCate')}/id/{$v.id}">修改</a> | 
+					<a href="{:U('delCate')}/id/{$v.id}" class="delBtn">删除</a>
+					<input type="text" name="sort[{$v.id}]" value="{$v.sort}" class="sort">
+				</div>
+			</div>
+			<if condition="$v['child']">
+			<ul class="subNav">
+				<foreach name="v['child']" item="vo" >
+				<li>
+					<div class="left">----{$vo.name}</div>
+					<div class="tool">
+						<a href="{:U('updateCate')}/id/{$vo.id}">修改</a> | 
+						<a href="{:U('delCate')}/id/{$vo.id}" class="delBtn">删除</a> | 
+						<input type="text" name="sort[{$vo.id}]" value="{$vo.sort}" class="sort">
+					</div>
+				</li>
+				</foreach>
+			</ul>
+			</if>
+		</li>
+		</foreach>
+		<li>
+			<input type="submit" value="排序">
+		</li>
+	</ul>
+	</form>
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+[ 2016-11-03T00:21:13+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T00:53:57+08:00 ] 123.125.71.57 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T01:16:03+08:00 ] 108.162.221.200 /case/1068.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-11-03T03:36:22+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T04:00:45+08:00 ] 119.167.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T05:47:48+08:00 ] 119.167.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T06:38:07+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T07:27:52+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T07:31:58+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T08:07:25+08:00 ] 182.118.25.230 /news/technical/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-03T08:22:27+08:00 ] 207.46.13.180 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T08:44:39+08:00 ] 173.245.49.238 /news_show/id=5.html
+ERR: 无法加载控制器:NewsShow
+
+[ 2016-11-03T09:22:49+08:00 ] 207.46.13.180 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T09:23:25+08:00 ] 58.211.2.24 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-11-03T10:27:47+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T10:31:22+08:00 ] 108.162.246.70 /case/1068.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-11-03T11:07:04+08:00 ] 108.162.245.81 /news/24.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-03T14:29:15+08:00 ] 104.236.250.43 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T14:29:16+08:00 ] 173.245.52.161 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T17:34:33+08:00 ] 42.236.93.99 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-11-03T18:31:05+08:00 ] 173.245.53.232 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T18:31:05+08:00 ] 173.245.49.137 /a/wangluopinpaishejiyuguanli/20141101/5.html
+ERR: 无法加载控制器:A
+
+[ 2016-11-03T19:59:23+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T20:11:24+08:00 ] 58.211.2.60 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-11-03T20:12:15+08:00 ] 58.211.2.96 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-11-03T20:12:29+08:00 ] 58.211.2.30 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-11-03T20:12:42+08:00 ] 58.211.2.78 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-11-03T20:36:51+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T21:30:08+08:00 ] 108.162.245.83 /case/63.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-11-03T21:40:41+08:00 ] 108.162.246.80 /news/27.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-03T23:01:20+08:00 ] 141.101.99.82 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-03T23:51:55+08:00 ] 121.42.0.31 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-11-03T23:52:10+08:00 ] 121.42.0.31 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-11-03T23:52:15+08:00 ] 121.42.0.31 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-11-03T23:52:18+08:00 ] 121.42.0.31 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-11-03T23:52:18+08:00 ] 121.42.0.31 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-11-03T23:52:25+08:00 ] 121.42.0.31 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-11-03T23:52:28+08:00 ] 121.42.0.31 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-11-03T23:52:30+08:00 ] 121.42.0.31 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-11-03T23:52:35+08:00 ] 121.42.0.31 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+

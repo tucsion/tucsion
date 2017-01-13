@@ -1,0 +1,168 @@
+[ 2016-11-07T01:04:22+08:00 ] 220.181.108.97 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T01:10:35+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T02:42:51+08:00 ] 173.245.49.238 /case/pid-9.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-11-07T03:25:42+08:00 ] 157.55.39.194 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T03:32:03+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T03:47:20+08:00 ] 119.167.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T04:28:42+08:00 ] 172.68.65.235 /case/1071.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-11-07T07:31:25+08:00 ] 182.118.25.208 /news/technical/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-07T11:10:44+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T12:53:21+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T14:06:24+08:00 ] 111.206.36.137 //notexist_path.htaccess
+ERR: 无法加载控制器:NotexistPath
+
+[ 2016-11-07T14:06:27+08:00 ] 111.206.36.137 //wp-includes/wlwmanifest.xml
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-11-07T14:06:28+08:00 ] 111.206.36.5 //data/stat_setting.xml
+ERR: 无法加载控制器:Data
+
+[ 2016-11-07T14:06:29+08:00 ] 111.206.36.18 //ckeditor/notexist_path.html
+ERR: 无法加载控制器:Ckeditor
+
+[ 2016-11-07T14:06:36+08:00 ] 111.206.36.143 //phpMyAdmin/notexist_path
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2016-11-07T14:06:37+08:00 ] 111.206.36.18 //README
+ERR: 无法加载控制器:README
+
+[ 2016-11-07T14:06:40+08:00 ] 111.206.36.12 //main.php
+ERR: 无法加载控制器:Main
+
+[ 2016-11-07T14:06:44+08:00 ] 111.206.36.12 //docs/README.TXT
+ERR: 无法加载控制器:Docs
+
+[ 2016-11-07T14:06:45+08:00 ] 111.206.36.143 //INSTALL.txt
+ERR: 无法加载控制器:INSTALL
+
+[ 2016-11-07T14:06:47+08:00 ] 111.206.36.18 //themes/mall/default/header.html
+ERR: 无法加载控制器:Themes
+
+[ 2016-11-07T14:06:51+08:00 ] 111.206.36.12 //includes/js/common.js
+ERR: 无法加载控制器:Includes
+
+[ 2016-11-07T14:06:52+08:00 ] 111.206.36.142 //js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-07T14:06:54+08:00 ] 111.206.36.5 //license.txt
+ERR: 无法加载控制器:License
+
+[ 2016-11-07T14:07:02+08:00 ] 111.206.36.12 //js/input.js
+ERR: 无法加载控制器:Js
+
+[ 2016-11-07T14:07:09+08:00 ] 111.206.36.137 //themes/base.js
+ERR: 无法加载控制器:Themes
+
+[ 2016-11-07T14:07:12+08:00 ] 111.206.36.143 //include/javascript/common.js
+ERR: 无法加载控制器:Include
+
+[ 2016-11-07T14:07:12+08:00 ] 111.206.36.137 //static/moinmoin/common/js/common.js
+ERR: 无法加载控制器:Static
+
+[ 2016-11-07T14:07:12+08:00 ] 111.206.36.12 //skins/default/default_left.css
+ERR: 无法加载控制器:Skins
+
+[ 2016-11-07T14:07:13+08:00 ] 111.206.36.137 //cache/js-common-chs.js
+ERR: 无法加载控制器:Cache
+
+[ 2016-11-07T14:07:18+08:00 ] 111.206.36.18 //templates/404.html
+ERR: 无法加载控制器:Templates
+
+[ 2016-11-07T14:07:18+08:00 ] 111.206.36.5 //css/archiva.css
+ERR: 无法加载控制器:Css
+
+[ 2016-11-07T14:07:19+08:00 ] 111.206.36.12 //templates/default/layout/footer.php
+ERR: 无法加载控制器:Templates
+
+[ 2016-11-07T14:07:20+08:00 ] 111.206.36.18 ///rss.php
+ERR: 无法加载控制器:Rss
+
+[ 2016-11-07T14:07:23+08:00 ] 111.206.36.5 //tpl/user/tpl1/js/lang.zh_cn.js
+ERR: 无法加载控制器:Tpl
+
+[ 2016-11-07T14:07:24+08:00 ] 111.206.36.5 //resource/script/ueditor/ueditor.config.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-11-07T14:07:25+08:00 ] 111.206.36.143 //fckeditor/_whatsnew.html
+ERR: 无法加载控制器:Fckeditor
+
+[ 2016-11-07T14:07:26+08:00 ] 111.206.36.18 //FCKeditor/_docs/whatsnew.html
+ERR: 无法加载控制器:FCKeditor
+
+[ 2016-11-07T14:07:26+08:00 ] 111.206.36.137 //fckeditor/license.txt
+ERR: 无法加载控制器:Fckeditor
+
+[ 2016-11-07T14:07:28+08:00 ] 111.206.36.18 //Public/Scripts/Script.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-07T14:07:29+08:00 ] 111.206.36.5 //lib/ufinder/ufinder.config.js
+ERR: 无法加载控制器:Lib
+
+[ 2016-11-07T14:07:29+08:00 ] 111.206.36.143 //ufinder/ufinder.config.js
+ERR: 无法加载控制器:Ufinder
+
+[ 2016-11-07T14:07:31+08:00 ] 111.206.36.5 //templates/phpmps/style/index.css
+ERR: 无法加载控制器:Templates
+
+[ 2016-11-07T14:07:32+08:00 ] 111.206.36.12 //login.php
+ERR: 无法加载控制器:Login
+
+[ 2016-11-07T14:07:32+08:00 ] 111.206.36.143 //struts/utils.js
+ERR: 无法加载控制器:Struts
+
+[ 2016-11-07T14:07:35+08:00 ] 111.206.36.5 //1.html?%201=2And%203=
+ERR: 无法加载控制器:1
+
+[ 2016-11-07T16:11:58+08:00 ] 182.118.25.208 /news/page-3.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-07T16:37:19+08:00 ] 173.245.49.238 /case/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-11-07T17:54:02+08:00 ] 58.211.2.150 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T20:06:43+08:00 ] 58.211.2.138 /a/jingpinanli/
+ERR: 无法加载控制器:A
+
+[ 2016-11-07T22:12:18+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-07T22:54:00+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+

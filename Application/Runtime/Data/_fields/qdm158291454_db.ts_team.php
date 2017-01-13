@@ -1,0 +1,1 @@
+a:9:{i:0;s:2:"id";i:1;s:4:"name";i:2;s:7:"en_name";i:3;s:3:"job";i:4;s:9:"thumbnail";i:5;s:4:"sort";i:6;s:10:"is_display";s:3:"_pk";s:2:"id";s:5:"_type";a:7:{s:2:"id";s:20:"smallint(3) unsigned";s:4:"name";s:8:"char(20)";s:7:"en_name";s:8:"char(20)";s:3:"job";s:8:"char(20)";s:9:"thumbnail";s:9:"char(255)";s:4:"sort";s:11:"smallint(3)";s:10:"is_display";s:7:"char(1)";}}

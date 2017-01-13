@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增分类</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 修改{$oneCate[0][name]}
+		</div>
+		<div class="right">
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<foreach name="oneCate" item="v">
+		<table class="table table-row" cellspacing="1">
+			<tr>
+				<th>名称</th>
+				<td><input type="text" name="name" value="{$v.name}"></td>
+			</tr>
+			<tr>
+				<th>所属分类</th>
+				<td>
+					<select name="fid">
+						<option value="0">顶级栏目</option>
+						<foreach name="topCate" item="vo">
+						<option value="{$vo.id}" <eq name='vo.id' value='$v.fid'>selected="selected"</eq> >{$vo.name}</option>
+						</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>网址</th>
+				<td><input type="text" name="dir" value="{$v.dir}"></td>
+				<input type="hidden" name="id" value="{$v.id}">
+			</tr>
+			<tr>
+				<th>类型</th>
+				<td>
+					<label for="type1">
+						<input type="radio" name="type" value="1" id="type1" <eq name="v.type" value="1">checked="checked"</eq>>单页
+					</label>
+					<label for="type2">
+						<input type="radio" name="type" value="2" id="type2" <eq name="v.type" value="2">checked="checked"</eq>>列表
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>SEO关键字</th>
+				<td><input type="text" name="keywords" class="input100" value="{$v.keywords}"></td>
+			</tr>
+			<tr>
+				<th>SEO描述</th>
+				<td><textarea name="description" >{$v.description}</textarea></td>
+			</tr>
+			<tr>
+				<th>缩略图</th>
+				<td>
+					<img src="{$v.thumbnail|default='__IMG__/upload.png'}" class="uploadBtn" id="uploadOneBtn"/>
+					<input type="hidden" name="thumbnail" id="ajaxImg" value="{$v.thumbnail}" />
+				</td>
+			</tr>
+			<tr>
+				<th>Banner</th>
+				<td>
+					<div id="addPics">
+						<foreach name='v.banner' item='vo'>
+						<div class="addPic">
+							<img src="{$vo}">
+							<span style="height: 0px;">
+								<i class="delPic" title="删除图片"></i>
+							</span>
+							<input name="pics[]" value="{$vo}" type="hidden">
+						</div>
+						</foreach>
+					</div>
+					<img src="__IMG__/upload.png" class="uploadBtn" id="uploadPics"/>
+				</td>
+				<div style="width: 0;height: 0;overflow: hidden;">
+					<textarea id="UE1"></textarea>
+				</div>
+			</tr>
+			<tr>
+				<th>是否显示</th>
+				<td>
+					<label for="is_display1">
+						<input type="radio" name="is_display" value="0" id="is_display1" <eq name="v.is_display" value="0">checked="checked"</eq>>单页
+					</label>
+					<label for="is_display2">
+						<input type="radio" name="is_display" value="1" id="is_display2" <eq name="v.is_display" value="1">checked="checked"</eq>>列表
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>排序</th>
+				<td><input type="text" name="sort" class="sort" value="{$v.sort}"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="提交"></td>
+			</tr>
+		</table>
+		</foreach>
+	</form>
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<!-- 上传单张图片 -->
+	<script type="text/javascript" src="__JS__/jquery.form.min.js"></script>
+	<script type="text/javascript" src="__JS__/uploadOnePic.js"></script>
+	<form enctype="multipart/form-data" id="ajax-form">
+		<input type="file" name="file">
+	</form>
+	<!-- 上传多张图片 -->
+	<script type="text/javascript" src="__JS__/uploadPics.js"></script>
+	<script type="text/javascript" src="__UE__/ueditor.config.js"></script>
+	<script type="text/javascript" src="__UE__/ueditor.all.min.js"></script>
+</body>
+</html>

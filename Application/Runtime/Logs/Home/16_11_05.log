@@ -1,0 +1,60 @@
+[ 2016-11-05T01:04:18+08:00 ] 220.181.108.81 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T02:48:39+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T03:58:04+08:00 ] 119.167.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T04:46:45+08:00 ] 58.211.2.150 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T04:50:00+08:00 ] 108.162.245.82 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-11-05T06:30:26+08:00 ] 58.211.2.150 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T09:11:53+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T10:02:53+08:00 ] 58.211.2.24 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-11-05T11:14:42+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T14:51:19+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T16:53:07+08:00 ] 146.185.130.221 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T16:53:08+08:00 ] 146.185.130.221 /news/pid-5.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-05T17:09:32+08:00 ] 173.245.53.232 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T17:09:33+08:00 ] 173.245.53.217 /html/case.html
+ERR: 无法加载控制器:Html
+
+[ 2016-11-05T17:09:40+08:00 ] 173.245.53.217 /html/about.html
+ERR: 无法加载控制器:Html
+
+[ 2016-11-05T19:37:59+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T20:32:03+08:00 ] 173.245.53.232 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T21:40:11+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-05T23:21:51+08:00 ] 123.125.71.107 /robots.txt
+ERR: 无法加载控制器:Robots
+

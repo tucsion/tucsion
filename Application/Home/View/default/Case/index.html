@@ -1,0 +1,34 @@
+<extend name="Base:base" />
+<block name="title">案例_</block>
+<block name="keywords">案例关键字</block>
+<block name="description">案例描述</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/case.css">
+	<link rel="stylesheet" href="__CSS__/subnav.css">
+</block>
+<block name="main">
+	<div class="pageHead"></div>
+	<div class="container">
+		<ul class="subNav">
+			<li><a class="active" href="__APP__/case/">全部</a></li>
+		<volist name="subNavs" id="subNavs">
+			<li><a href="__APP__/{$subNavs.dir}/">{$subNavs.name}</a></li>
+		</volist>
+		</ul>
+		<ul class="case-list">
+		<foreach name='list' item='vo'>
+			<li>
+				<a class="img" href="__APP__/{$vo.fid_dir}/{$vo.id}.html"><img src="{$vo.thumbnail}" alt="{$vo.name}"></a>
+				<a class="title" href="__APP__/{$vo.fid_dir}/{$vo.id}.html">{$vo.name}</a>
+				<p class="info">{$vo.sub_name}</p>
+			</li>
+		</foreach>
+		</ul>
+		<div class="more">
+			<a href='###' id='more'>更多精彩</a>
+		</div>
+	</div>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+</block>

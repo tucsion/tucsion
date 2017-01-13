@@ -1,0 +1,781 @@
+@charset 'utf-8';
+ul.news-list li {
+  border: 1px solid #f2f2f2;
+  border-radius: 1px;
+  overflow: hidden;
+  width: 100%;
+  transition: 0.5s;
+}
+ul.news-list li:hover {
+  box-shadow: 0 0 3px #ccc;
+}
+ul.news-list li div.info {
+  float: left;
+}
+ul.news-list li div.info div.time {
+  color: #888;
+}
+ul.news-list li div.info div.time span.fTypeName a {
+  color: #666;
+  font-weight: bold;
+}
+ul.news-list li div.info div.time span.fTypeName a:hover {
+  text-decoration: underline;
+}
+ul.news-list li div.info div.time span.time {
+  color: #999;
+  font-weight: lighter;
+}
+ul.news-list li div.info h3 a {
+  font-weight: 200;
+  color: #000;
+  transition: 0.5s;
+}
+ul.news-list li div.info h3 a:hover {
+  color: #a0a14c;
+}
+ul.news-list li div.info p.description {
+  font-weight: lighter;
+  color: #666;
+}
+ul.news-list li a.thumbnail {
+  float: right;
+  transition: 0.5s;
+}
+ul.news-list li a.thumbnail:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+ul.news-list li a.thumbnail img {
+  max-height: 100%;
+  max-width: 100%;
+}
+ul.pages {
+  text-align: center;
+}
+ul.pages li {
+  display: inline-block;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  transition: 1s;
+}
+ul.pages li.on {
+  color: #fff;
+  border-color: #6d6e34;
+  background: #9fa04c;
+}
+ul.pages li:hover {
+  border-color: #9fa04c;
+}
+ul.pages li a {
+  color: #000;
+  display: block;
+}
+ul.pages li a:hover {
+  text-decoration: underline;
+  color: #6d6e34;
+}
+div.details .detail {
+  transition: 1s;
+}
+div.details .detail h2.title {
+  margin-top: ;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+}
+div.details .detail p.info {
+  font-size: 12px;
+  color: #999;
+  width: 100%;
+  text-align: center;
+}
+div.details .detail p.info a {
+  color: #666;
+  font-weight: bold;
+}
+div.details .detail p.info span {
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+div.details .detail .content {
+  color: #666;
+  font-weight: 200;
+  border-bottom: 1px solid #eee;
+}
+div.details .detail .content img {
+  max-width: 100%;
+  transition: 1s;
+}
+div.details .detail .content p {
+  text-indent: 2em;
+}
+.more-news {
+  margin: 0 auto;
+  position: relative;
+  transition: 1s;
+}
+.more-news p.title {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.more-news div.ul_box {
+  position: absolute;
+  overflow: hidden;
+}
+.more-news div.ul_box ul.more-news-list {
+  width: 300%;
+}
+.more-news div.ul_box ul.more-news-list li {
+  float: left;
+}
+.more-news div.ul_box ul.more-news-list li a {
+  display: block;
+}
+.more-news div.ul_box ul.more-news-list li a.img img {
+  max-width: 100%;
+}
+.more-news div.ul_box ul.more-news-list li a.title {
+  font-weight: 200;
+  color: #000;
+}
+.more-news .hd {
+  position: relative;
+  overflow: visible;
+  height: 23px;
+}
+.more-news .hd a.prev,
+.more-news .hd a.next {
+  position: absolute;
+  top: 0;
+  z-index: 9;
+}
+@media screen and (min-width: 1400px) {
+  ul.news-list {
+    margin: 0 35px;
+  }
+  ul.news-list li {
+    margin-bottom: 20px;
+    padding: 60px 60px 60px 110px;
+  }
+  ul.news-list li div.info {
+    width: 520px;
+    padding-top: 60px;
+  }
+  ul.news-list li div.info div.time {
+    margin-bottom: 30px;
+  }
+  ul.news-list li div.info div.time span.fTypeName a {
+    font-size: 14px;
+  }
+  ul.news-list li div.info div.time span.time {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  ul.news-list li div.info h3 a {
+    font-size: 24px;
+  }
+  ul.news-list li div.info p.description {
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  ul.news-list li a.thumbnail {
+    width: 480px;
+    height: 300px;
+  }
+  ul.news-list li a.thumbnail:hover {
+    padding: 1em;
+  }
+  ul.news-list li a.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  ul.pages {
+    margin: 50px 0;
+  }
+  ul.pages li {
+    font-size: 16px;
+  }
+  ul.pages li.on {
+    padding: 13px 17px;
+  }
+  ul.pages li a {
+    padding: 13px 17px;
+  }
+  div.details .detail {
+    padding: 70px 35px;
+  }
+  div.details .detail h2.title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  div.details .detail p.info {
+    padding-top: 30px;
+  }
+  div.details .detail .content {
+    padding: 40px 0 30px 0;
+    line-height: 36px;
+    font-size: 16px;
+  }
+  div.details .detail .content p {
+    padding: 20px 0;
+  }
+  .more-news {
+    width: 1360px;
+    height: 500px;
+    padding: 0 35px 100px 35px;
+  }
+  .more-news p.title {
+    font-size: 24px;
+  }
+  .more-news div.ul_box {
+    top: 64px;
+    left: 35px;
+    width: 1290px;
+  }
+  .more-news div.ul_box ul.more-news-list li {
+    width: 410px;
+    margin-right: 30px;
+  }
+  .more-news div.ul_box ul.more-news-list li a.title {
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 32px;
+  }
+  .more-news .hd {
+    top: 190px;
+  }
+  .more-news .hd a.prev {
+    left: -50px;
+  }
+  .more-news .hd a.next {
+    right: -50px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  ul.news-list {
+    margin: 0 35px;
+  }
+  ul.news-list li {
+    margin-bottom: 20px;
+    padding: 50px 50px 50px 90px;
+  }
+  ul.news-list li div.info {
+    width: 470px;
+    padding-top: 20px;
+  }
+  ul.news-list li div.info div.time {
+    margin-bottom: 20px;
+  }
+  ul.news-list li div.info div.time span.fTypeName a {
+    font-size: 14px;
+  }
+  ul.news-list li div.info div.time span.time {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  ul.news-list li div.info h3 a {
+    font-size: 22px;
+  }
+  ul.news-list li div.info p.description {
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  ul.news-list li a.thumbnail {
+    width: 400px;
+    height: 250px;
+  }
+  ul.news-list li a.thumbnail:hover {
+    padding: 1em;
+  }
+  ul.news-list li a.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  ul.pages {
+    margin: 50px 0;
+  }
+  ul.pages li {
+    font-size: 16px;
+  }
+  ul.pages li.on {
+    padding: 13px 17px;
+  }
+  ul.pages li a {
+    padding: 13px 17px;
+  }
+  div.details .detail {
+    padding: 60px 35px;
+  }
+  div.details .detail h2.title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  div.details .detail p.info {
+    padding-top: 30px;
+  }
+  div.details .detail .content {
+    padding: 40px 0 30px 0;
+    line-height: 36px;
+    font-size: 16px;
+  }
+  div.details .detail .content p {
+    padding: 20px 0;
+  }
+  .more-news {
+    width: 1170px;
+    height: 500px;
+    padding: 0 35px 100px 35px;
+  }
+  .more-news p.title {
+    font-size: 24px;
+  }
+  .more-news div.ul_box {
+    top: 64px;
+    left: 35px;
+    width: 1100px;
+  }
+  .more-news div.ul_box ul.more-news-list li {
+    width: 346px;
+    margin-right: 31px;
+  }
+  .more-news div.ul_box ul.more-news-list li a.title {
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 32px;
+  }
+  .more-news .hd {
+    top: 165px;
+  }
+  .more-news .hd a.prev {
+    left: -50px;
+  }
+  .more-news .hd a.next {
+    right: -50px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  ul.news-list {
+    margin: 0 30px;
+  }
+  ul.news-list li {
+    margin-bottom: 20px;
+    padding: 40px;
+  }
+  ul.news-list li div.info {
+    width: 500px;
+  }
+  ul.news-list li div.info div.time {
+    margin-bottom: 20px;
+  }
+  ul.news-list li div.info div.time span.fTypeName a {
+    font-size: 14px;
+  }
+  ul.news-list li div.info div.time span.time {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  ul.news-list li div.info h3 a {
+    font-size: 20px;
+  }
+  ul.news-list li div.info p.description {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  ul.news-list li a.thumbnail {
+    width: 288px;
+    height: 180px;
+  }
+  ul.news-list li a.thumbnail:hover {
+    padding: 1em;
+  }
+  ul.news-list li a.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  ul.pages {
+    margin: 50px 0;
+  }
+  ul.pages li {
+    font-size: 16px;
+  }
+  ul.pages li.on {
+    padding: 13px 17px;
+  }
+  ul.pages li a {
+    padding: 13px 17px;
+  }
+  div.details .detail {
+    padding: 50px 35px;
+  }
+  div.details .detail h2.title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  div.details .detail p.info {
+    padding-top: 20px;
+  }
+  div.details .detail .content {
+    padding: 30px 0 30px 0;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  div.details .detail .content p {
+    padding: 10px 0;
+  }
+  .more-news {
+    width: 970px;
+    height: 400px;
+  }
+  .more-news p.title {
+    font-size: 24px;
+  }
+  .more-news div.ul_box {
+    top: 64px;
+    left: 35px;
+    width: 900px;
+  }
+  .more-news div.ul_box ul.more-news-list li {
+    width: 284px;
+    margin-right: 24px;
+  }
+  .more-news div.ul_box ul.more-news-list li a.title {
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 24px;
+  }
+  .more-news .hd {
+    top: 145px;
+  }
+  .more-news .hd a.prev {
+    left: -20px;
+  }
+  .more-news .hd a.next {
+    right: -20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  ul.news-list {
+    margin: 0 20px;
+  }
+  ul.news-list li {
+    margin-bottom: 20px;
+    padding: 30px;
+    position: relative;
+  }
+  ul.news-list li div.info {
+    width: 460px;
+  }
+  ul.news-list li div.info div.time {
+    margin-bottom: 20px;
+  }
+  ul.news-list li div.info div.time span.fTypeName a {
+    font-size: 14px;
+  }
+  ul.news-list li div.info div.time span.time {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  ul.news-list li div.info h3 a {
+    font-size: 18px;
+  }
+  ul.news-list li div.info p.description {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  ul.news-list li a.thumbnail {
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    margin-top: -50px;
+  }
+  ul.news-list li a.thumbnail:hover {
+    padding: 6px;
+  }
+  ul.news-list li a.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  ul.pages {
+    margin: 30px 0;
+  }
+  ul.pages li {
+    font-size: 16px;
+  }
+  ul.pages li.on {
+    padding: 8px 12px;
+  }
+  ul.pages li a {
+    padding: 8px 12px;
+  }
+  div.details .detail {
+    padding: 50px 35px;
+  }
+  div.details .detail h2.title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  div.details .detail p.info {
+    padding-top: 20px;
+  }
+  div.details .detail .content {
+    padding: 30px 0 30px 0;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  div.details .detail .content p {
+    padding: 6px 0;
+  }
+  .more-news {
+    width: 750px;
+    height: 320px;
+  }
+  .more-news p.title {
+    font-size: 24px;
+  }
+  .more-news div.ul_box {
+    top: 64px;
+    left: 35px;
+    width: 680px;
+  }
+  .more-news div.ul_box ul.more-news-list li {
+    width: 220px;
+    margin-right: 10px;
+  }
+  .more-news div.ul_box ul.more-news-list li a.title {
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 20px;
+  }
+  .more-news .hd {
+    top: 125px;
+  }
+  .more-news .hd a.prev {
+    left: -20px;
+  }
+  .more-news .hd a.next {
+    right: -20px;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 767px) {
+  ul.news-list {
+    width: 550px;
+    overflow: hidden;
+  }
+  ul.news-list li {
+    margin: 0 20px 20px 0;
+    width: 250px;
+    float: left;
+  }
+  ul.news-list li div.info {
+    padding: 0 20px 20px;
+  }
+  ul.news-list li div.info div.time {
+    margin: 10px 0;
+  }
+  ul.news-list li div.info div.time span.fTypeName a {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  ul.news-list li div.info div.time span.time {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  ul.news-list li div.info h3 a {
+    font-size: 14px;
+  }
+  ul.news-list li div.info p.description {
+    display: none;
+  }
+  ul.news-list li a.thumbnail {
+    width: 100%;
+    padding: 1px;
+  }
+  ul.news-list li a.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  ul.pages {
+    margin: 20px 0 40px 0;
+  }
+  ul.pages li {
+    font-size: 14px;
+  }
+  ul.pages li.on {
+    padding: 4px 8px;
+  }
+  ul.pages li a {
+    padding: 4px 8px;
+  }
+  div.details .detail {
+    padding: 30px 0;
+  }
+  div.details .detail h2.title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  div.details .detail p.info {
+    padding-top: 20px;
+  }
+  div.details .detail .content {
+    padding: 30px 0 30px 0;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  div.details .detail .content p {
+    padding: 6px 0;
+  }
+  .more-news {
+    width: 520px;
+    height: 300px !important;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .more-news p.title {
+    font-size: 20px;
+  }
+  .more-news div.ul_box {
+    top: 64px;
+    left: 0;
+    width: 100%;
+  }
+  .more-news div.ul_box ul.more-news-list {
+    width: 520px !important;
+    left: 0 !important;
+  }
+  .more-news div.ul_box ul.more-news-list li {
+    width: 520px;
+    border-bottom: 1px dashed #eee;
+  }
+  .more-news div.ul_box ul.more-news-list li a.title {
+    font-size: 14px;
+    padding: 12px 0;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+    overflow: hidden;
+  }
+  .more-news div.ul_box ul.more-news-list li a.img {
+    display: none;
+  }
+  .more-news a.prev,
+  .more-news a.next {
+    display: none;
+  }
+}
+@media screen and (max-width: 559px) {
+  ul.news-list li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  ul.news-list li div.info {
+    padding: 0 20px 20px;
+  }
+  ul.news-list li div.info div.time {
+    margin: 10px 0;
+  }
+  ul.news-list li div.info div.time span.fTypeName a {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  ul.news-list li div.info div.time span.time {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  ul.news-list li div.info h3 a {
+    font-size: 14px;
+  }
+  ul.news-list li div.info p.description {
+    display: none;
+  }
+  ul.news-list li a.thumbnail {
+    width: 100%;
+    padding: 1px;
+  }
+  ul.news-list li a.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  ul.pages {
+    margin: 30px 0 30px 0;
+  }
+  ul.pages li {
+    font-size: 14px;
+  }
+  ul.pages li.on {
+    padding: 4px 8px;
+  }
+  ul.pages li a {
+    padding: 4px 8px;
+  }
+  div.details .detail {
+    padding: 30px 0;
+  }
+  div.details .detail h2.title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  div.details .detail p.info {
+    padding-top: 10px;
+  }
+  div.details .detail .content {
+    padding: 20px 0 30px 0;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  div.details .detail .content p {
+    padding: 6px 0;
+  }
+  .more-news {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+  .more-news p.title {
+    font-size: 18px;
+  }
+  .more-news div.ul_box {
+    top: 64px;
+    left: 0;
+    width: 300px;
+  }
+  .more-news div.ul_box ul.more-news-list {
+    width: 300px !important;
+    left: 0 !important;
+  }
+  .more-news div.ul_box ul.more-news-list li {
+    width: 300px;
+    border-bottom: 1px dashed #eee;
+  }
+  .more-news div.ul_box ul.more-news-list li a.title {
+    font-size: 14px;
+    padding: 12px 0;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 290px;
+    overflow: hidden;
+  }
+  .more-news div.ul_box ul.more-news-list li a.img {
+    display: none;
+  }
+  .more-news a.prev,
+  .more-news a.next {
+    display: none;
+  }
+}

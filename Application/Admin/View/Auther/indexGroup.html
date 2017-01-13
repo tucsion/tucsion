@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>部门列表</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('index')}">权限控制</a> / 部门列表
+		</div>
+		<div class="right">
+			<a href="{:U('addGroup')}">新增部门</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<table class="table table-col" cellspacing="1">
+		<tr>
+			<th>#ID</th>
+			<th>名称</th>
+			<th>权限</th>
+			<th>操作</th>
+		</tr>
+		<foreach name='group' item='v'>
+		<tr>
+			<td>{$v.id}</td>
+			<td>{$v.title}</td>
+			<td>
+				<foreach name='v.rules_title' item='vo' key='ko'>
+					{$vo}<if condition="$ko+1 neq count($v['rules_title'])">，</if>
+				</foreach>
+			</td>
+			<td>
+				<a href="{:U('setAccess',array('id'=>$v['id'],'rules'=>$v['rules']))}">配置权限</a> | 
+				<a href="">删除</a> | 
+				<a href="">修改</a>
+			</td>
+		</tr>
+		</foreach>
+	</table>
+</body>
+</html>

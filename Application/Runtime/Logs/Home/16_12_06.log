@@ -1,0 +1,717 @@
+[ 2016-12-06T00:17:22+08:00 ] 123.125.71.54 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T01:02:54+08:00 ] 121.42.0.83 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-12-06T01:03:10+08:00 ] 121.42.0.83 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-12-06T01:03:15+08:00 ] 121.42.0.83 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-12-06T01:03:17+08:00 ] 121.42.0.83 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-12-06T01:03:26+08:00 ] 121.42.0.83 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-12-06T01:03:29+08:00 ] 121.42.0.83 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-12-06T01:03:31+08:00 ] 121.42.0.83 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-12-06T01:03:35+08:00 ] 121.42.0.83 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-12-06T01:07:34+08:00 ] 173.245.49.238 /news/technical
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-12-06T03:11:47+08:00 ] 123.125.71.33 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T05:33:27+08:00 ] 119.167.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T06:03:51+08:00 ] 220.181.124.125 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T07:27:58+08:00 ] 173.245.52.161 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T07:28:01+08:00 ] 108.162.219.144 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T09:32:24+08:00 ] 119.167.246.10 /notexist_path
+ERR: 无法加载控制器:NotexistPath
+
+[ 2016-12-06T09:32:53+08:00 ] 119.167.246.10 /case/notexist_path
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:53+08:00 ] 119.167.246.10 /news/notexist_path
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/js/notexist_path.js
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/js/notexist_path.js
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:53+08:00 ] 116.31.126.105 /Public/Home/default/js/notexist_path.js
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:32:54+08:00 ] 116.31.126.107 //sgoutong.baidu.com/embed/1480397739/asset/embed/css/pc/main.css
+ERR: 无法加载控制器:Sgoutong.baidu.com
+
+[ 2016-12-06T09:32:54+08:00 ] 116.31.126.107 //sgoutong.baidu.com/embed/1480397739/asset/embed/css/pc/main.css
+ERR: 无法加载控制器:Sgoutong.baidu.com
+
+[ 2016-12-06T09:32:56+08:00 ] 116.31.126.108 //sgoutong.baidu.com/embed/1480397739/asset/embed/pc_nb.js
+ERR: 无法加载控制器:Sgoutong.baidu.com
+
+[ 2016-12-06T09:32:56+08:00 ] 116.31.126.103 //hm.baidu.com/hm.js
+ERR: 无法加载控制器:Hm.baidu.com
+
+[ 2016-12-06T09:33:04+08:00 ] 119.167.246.10 /case/platform/notexist_path.html
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = notexist_path ) 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = notexist_path ) 
+
+[ 2016-12-06T09:33:08+08:00 ] 119.167.246.10 /case/official/notexist_path.html
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = notexist_path ) 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = notexist_path ) 
+
+[ 2016-12-06T09:33:19+08:00 ] 119.167.246.10 /tel:010-5944%200668
+ERR: 无法加载控制器:Tel:010-5944 0668
+
+[ 2016-12-06T09:33:21+08:00 ] 119.167.246.10 /project/notexist_path
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T09:33:21+08:00 ] 116.31.126.108 /Public/Home/default/Ftp/yuanyang/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:21+08:00 ] 116.31.126.108 /Public/Home/default/Ftp/yuanyang/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:21+08:00 ] 119.167.246.10 /about:blank
+ERR: 无法加载控制器:About:blank
+
+[ 2016-12-06T09:33:21+08:00 ] 116.31.126.108 /Public/Home/default/Ftp/yuanyang/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:21+08:00 ] 119.167.246.10 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T09:33:22+08:00 ] 119.167.246.10 /cdn-cgi/l/notexist_path
+ERR: 无法加载控制器:Cdn-cgi
+
+[ 2016-12-06T09:33:23+08:00 ] 119.167.246.10 /Android/notexist_path
+ERR: 无法加载控制器:Android
+
+[ 2016-12-06T09:33:23+08:00 ] 119.167.246.10 /Public/Home/default/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:24+08:00 ] 119.167.246.10 /Android/i
+ERR: 无法加载控制器:Android
+
+[ 2016-12-06T09:33:25+08:00 ] 119.167.246.10 /Public/Home/default/js/realHeight/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:25+08:00 ] 119.167.246.10 /Public/Home/default/js/realWidth/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:26+08:00 ] 119.167.246.10 /Public/Home/default/js/scrollT/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:26+08:00 ] 119.167.246.10 /Public/Home/default/js/realHeight/realWidth
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:27+08:00 ] 119.167.246.10 /Public/Home/default/js/realWidth/realHeight
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:28+08:00 ] 119.167.246.10 /Public/Home/default/js/scrollT/2
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:28+08:00 ] 119.167.246.10 /Public/Home/default/js/headH/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:29+08:00 ] 119.167.246.10 /Public/Home/default/js/headH/2
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:29+08:00 ] 119.167.246.10 /Public/Home/default/js/MIT/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:29+08:00 ] 119.167.246.10 /Public/Home/default/js/min/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:30+08:00 ] 116.31.126.105 /Public/Home/default/Ftp/airport/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:31+08:00 ] 119.167.246.10 /Public/Home/default/js/text/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:31+08:00 ] 119.167.246.10 /Public/Home/default/js/MIT/GPL2
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:31+08:00 ] 119.167.246.10 /Public/Home/default/js/min/max-width
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:31+08:00 ] 116.31.126.236 /Public/Home/default/Ftp/chaoyang/css/notexist_path.css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:32+08:00 ] 119.167.246.10 /Public/Home/default/js/min/max-width
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:33+08:00 ] 119.167.246.10 /Public/Home/default/js/text/css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:34+08:00 ] 119.167.246.10 /Public/Home/default/js/text/css
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:34+08:00 ] 119.167.246.10 /Public/Home/default/js/MIT/GPL2
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:33:46+08:00 ] 119.167.246.10 /case/mobile/notexist_path
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = notexist_path ) 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = notexist_path ) 
+
+[ 2016-12-06T09:33:48+08:00 ] 119.167.246.10 /case/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-12-06T09:33:50+08:00 ] 119.167.246.10 /case/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-12-06T09:33:52+08:00 ] 119.167.246.10 /case/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.sub_title,a.thumbnail,b.dir as fid_dir FROM ts_case as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id ) 
+
+[ 2016-12-06T09:34:19+08:00 ] 119.167.246.10 /Public/Home/default/js/n/notexist_path.duration
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:20+08:00 ] 119.167.246.10 /Public/Home/default/js/n/l.duration
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:21+08:00 ] 119.167.246.10 /Public/Home/default/js/n/g
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:23+08:00 ] 119.167.246.10 /Public/Home/default/js/script/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:24+08:00 ] 119.167.246.10 /Public/Home/default/js/application/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:25+08:00 ] 119.167.246.10 /Public/Home/default/js/script/i
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:25+08:00 ] 119.167.246.10 /Public/Home/default/js/text/html
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:25+08:00 ] 119.167.246.10 /Public/Home/default/js/application/x-www-form-urlencoded
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:26+08:00 ] 119.167.246.10 /Public/Home/default/js/tbody/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:26+08:00 ] 119.167.246.10 /Public/Home/default/js/p/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:27+08:00 ] 119.167.246.10 /Public/Home/default/js/D/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:27+08:00 ] 119.167.246.10 /Public/Home/default/js/r/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:27+08:00 ] 119.167.246.10 /Public/Home/default/js/tbody/i
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:27+08:00 ] 119.167.246.10 /Public/Home/default/js/p/r
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:27+08:00 ] 119.167.246.10 /Public/Home/default/js/D/g
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:27+08:00 ] 119.167.246.10 /Public/Home/default/js/r/g
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:28+08:00 ] 119.167.246.10 /Public/Home/default/js/jquery.org/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:29+08:00 ] 119.167.246.10 /Public/Home/default/js/jquery.org/license
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:29+08:00 ] 119.167.246.10 /Public/Home/default/js/application/x-ecmascript
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:29+08:00 ] 119.167.246.10 /Public/Home/default/js/application/javascript
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:29+08:00 ] 119.167.246.10 /Public/Home/default/js/text/xml
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:30+08:00 ] 119.167.246.10 /Public/Home/default/js/20/notexist_path
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:30+08:00 ] 119.167.246.10 /Public/Home/default/js/20/g
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:31+08:00 ] 119.167.246.10 /Public/Home/default/js/application/xml
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:31+08:00 ] 119.167.246.10 /Public/Home/default/js/application/json
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:31+08:00 ] 119.167.246.10 /Public/Home/default/js/application/ecmascript
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:32+08:00 ] 119.167.246.10 /Public/Home/default/js/text/plain
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:33+08:00 ] 119.167.246.10 /news/notice/notexist_path
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:34:33+08:00 ] 119.167.246.10 /Public/Home/default/js/text/plain
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:33+08:00 ] 119.167.246.10 /Public/Home/default/js/application/json
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:33+08:00 ] 119.167.246.10 /Public/Home/default/js/application/ecmascript
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T09:34:34+08:00 ] 119.167.246.10 /news/frontview/notexist_path
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:34:35+08:00 ] 119.167.246.10 /news/course/notexist_path
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:34:35+08:00 ] 119.167.246.10 /news/ui/notexist_path
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:34:35+08:00 ] 119.167.246.10 /news/course/notexist_path.html
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+ERR: 1054:Unknown column 'notexist_path' in 'where clause'
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = notexist_path ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:34:49+08:00 ] 119.167.246.10 /news/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-12-06T09:34:49+08:00 ] 119.167.246.10 /news/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-12-06T09:34:50+08:00 ] 119.167.246.10 /news/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-12-06T09:34:51+08:00 ] 119.167.246.10 /case/platform/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+
+[ 2016-12-06T09:34:52+08:00 ] 119.167.246.10 /case/platform/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:34:53+08:00 ] 119.167.246.10 /case/platform/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:34:53+08:00 ] 119.167.246.10 /case/official/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+
+[ 2016-12-06T09:34:54+08:00 ] 119.167.246.10 /case/official/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:34:55+08:00 ] 119.167.246.10 /case/official/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:34:55+08:00 ] 119.167.246.10 /case/official/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:34:56+08:00 ] 119.167.246.10 /cdn-cgi/l/text/notexist_path
+ERR: 无法加载控制器:Cdn-cgi
+
+[ 2016-12-06T09:34:56+08:00 ] 119.167.246.10 /cdn-cgi/l/text/css
+ERR: 无法加载控制器:Cdn-cgi
+
+[ 2016-12-06T09:34:57+08:00 ] 119.167.246.10 /cdn-cgi/l/text/javascript
+ERR: 无法加载控制器:Cdn-cgi
+
+[ 2016-12-06T09:34:57+08:00 ] 119.167.246.10 /cdn-cgi/l/text/javascript
+ERR: 无法加载控制器:Cdn-cgi
+
+[ 2016-12-06T09:35:02+08:00 ] 119.167.246.10 /_/notexist_path
+ERR: 无法加载控制器:_
+
+[ 2016-12-06T09:35:02+08:00 ] 119.167.246.10 /xml/notexist_path
+ERR: 无法加载控制器:Xml
+
+[ 2016-12-06T09:35:03+08:00 ] 119.167.246.10 /_/g
+ERR: 无法加载控制器:_
+
+[ 2016-12-06T09:35:03+08:00 ] 119.167.246.10 /xml/i
+ERR: 无法加载控制器:Xml
+
+[ 2016-12-06T09:35:03+08:00 ] 119.167.246.10 /javascript/notexist_path
+ERR: 无法加载控制器:Javascript
+
+[ 2016-12-06T09:35:04+08:00 ] 119.167.246.10 /javascript/i
+ERR: 无法加载控制器:Javascript
+
+[ 2016-12-06T09:35:13+08:00 ] 119.167.246.10 /case/mobile/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+
+[ 2016-12-06T09:35:14+08:00 ] 119.167.246.10 /case/mobile/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:35:14+08:00 ] 119.167.246.10 /case/mobile/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+
+[ 2016-12-06T09:35:14+08:00 ] 119.167.246.10 /case/mobile/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = tel:010-5944 0668 ) 
+
+[ 2016-12-06T09:35:15+08:00 ] 119.167.246.10 /case/mobile/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_case` WHERE ( id = about:blank ) 
+
+[ 2016-12-06T09:35:28+08:00 ] 119.167.246.10 /news/notice/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:28+08:00 ] 119.167.246.10 /news/notice/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:28+08:00 ] 119.167.246.10 /news/notice/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:30+08:00 ] 119.167.246.10 /news/notice/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:30+08:00 ] 119.167.246.10 /news/course/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:30+08:00 ] 119.167.246.10 /news/course/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:30+08:00 ] 119.167.246.10 /news/course/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:30+08:00 ] 119.167.246.10 /news/course/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:31+08:00 ] 119.167.246.10 /news/frontview/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:32+08:00 ] 119.167.246.10 /news/frontview/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:32+08:00 ] 119.167.246.10 /news/frontview/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:32+08:00 ] 119.167.246.10 /news/frontview/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:32+08:00 ] 119.167.246.10 /news/ui/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:33+08:00 ] 119.167.246.10 /news/ui/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:33+08:00 ] 119.167.246.10 /news/ui/tel:010-5944%200668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':010-5944 0668 ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = tel:010-5944 0668 ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:35:34+08:00 ] 119.167.246.10 /news/ui/about:blank
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':blank ) ORDER BY a.sort DESC' at line 1
+ [ SQL语句 ] : SELECT a.title,a.keywords,a.description,a.content,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid = b.id AND a.is_display = 1 AND a.id = about:blank ) ORDER BY a.sort DESC 
+
+[ 2016-12-06T09:48:01+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T10:29:44+08:00 ] 185.129.148.190 /infos.php
+ERR: 无法加载控制器:Infos
+
+[ 2016-12-06T10:29:52+08:00 ] 185.129.148.190 /images/xxx.php
+ERR: 无法加载控制器:Images
+
+[ 2016-12-06T10:30:41+08:00 ] 185.129.148.190 /administrator/includes/readmy.php
+ERR: 无法加载控制器:Administrator
+
+[ 2016-12-06T10:33:57+08:00 ] 185.129.148.190 /tmp.php
+ERR: 无法加载控制器:Tmp
+
+[ 2016-12-06T10:35:20+08:00 ] 185.129.148.190 /wp-content/plugins/wp-cache.php
+ERR: 无法加载控制器:Wp-content
+
+[ 2016-12-06T10:37:15+08:00 ] 185.129.148.190 /sqlibak.php
+ERR: 无法加载控制器:Sqlibak
+
+[ 2016-12-06T10:39:07+08:00 ] 185.129.148.190 /functions.php
+ERR: 无法加载控制器:Functions
+
+[ 2016-12-06T10:40:20+08:00 ] 185.129.148.190 /wp-cache.php
+ERR: 无法加载控制器:Wp-cache
+
+[ 2016-12-06T10:42:15+08:00 ] 185.129.148.190 /images/google-assist.php
+ERR: 无法加载控制器:Images
+
+[ 2016-12-06T10:42:18+08:00 ] 185.129.148.190 /images/google-assist.php
+ERR: 无法加载控制器:Images
+
+[ 2016-12-06T10:42:45+08:00 ] 185.129.148.190 /maill.php
+ERR: 无法加载控制器:Maill
+
+[ 2016-12-06T10:45:05+08:00 ] 185.129.148.190 /includes.php
+ERR: 无法加载控制器:Includes
+
+[ 2016-12-06T10:46:13+08:00 ] 185.129.148.190 /configurationbak.php
+ERR: 无法加载控制器:Configurationbak
+
+[ 2016-12-06T11:42:50+08:00 ] 121.42.0.15 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-12-06T11:43:06+08:00 ] 121.42.0.15 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-12-06T11:43:11+08:00 ] 121.42.0.15 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-12-06T11:43:15+08:00 ] 121.42.0.15 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-12-06T11:43:15+08:00 ] 121.42.0.15 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-12-06T11:43:22+08:00 ] 121.42.0.15 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-12-06T11:43:25+08:00 ] 121.42.0.15 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-12-06T11:43:27+08:00 ] 121.42.0.15 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-12-06T11:43:33+08:00 ] 121.42.0.15 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-12-06T14:53:34+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T14:58:12+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T17:20:43+08:00 ] 163.172.68.132 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T19:13:58+08:00 ] 207.46.13.70 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T19:42:02+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T20:12:45+08:00 ] 108.162.229.231 /a/wangluopinpaishejiyuguanli/20141101/1.html
+ERR: 无法加载控制器:A
+
+[ 2016-12-06T20:30:49+08:00 ] 162.158.74.164 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-06T20:44:52+08:00 ] 220.181.108.152 /platform%20url%20case
+ERR: 无法加载控制器:Platform url case
+
+[ 2016-12-06T20:49:40+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T21:48:34+08:00 ] 117.34.13.42 /officail%20url%20more
+ERR: 无法加载控制器:Officail url more
+
+[ 2016-12-06T21:48:44+08:00 ] 117.34.13.42 /platform%20url%20more
+ERR: 无法加载控制器:Platform url more
+
+[ 2016-12-06T21:48:54+08:00 ] 117.34.13.42 /officai%20url%20case
+ERR: 无法加载控制器:Officai url case
+
+[ 2016-12-06T21:49:04+08:00 ] 117.34.13.42 /platform%20url%20case
+ERR: 无法加载控制器:Platform url case
+
+[ 2016-12-06T21:49:14+08:00 ] 117.34.13.42 /officai%20url%20more
+ERR: 无法加载控制器:Officai url more
+
+[ 2016-12-06T21:49:24+08:00 ] 117.34.13.42 /officail%20url%20case
+ERR: 无法加载控制器:Officail url case
+
+[ 2016-12-06T22:31:17+08:00 ] 121.42.0.82 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-12-06T22:31:22+08:00 ] 121.42.0.82 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-12-06T22:31:24+08:00 ] 121.42.0.82 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-12-06T22:31:25+08:00 ] 121.42.0.82 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-12-06T22:31:32+08:00 ] 121.42.0.82 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-12-06T22:31:35+08:00 ] 121.42.0.82 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-12-06T22:31:39+08:00 ] 121.42.0.82 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-12-06T22:31:42+08:00 ] 121.42.0.82 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-12-06T22:41:37+08:00 ] 117.34.13.42 /project/
+ERR: 无法加载控制器:Project
+
+[ 2016-12-06T23:40:25+08:00 ] 117.34.13.42 /officai%20url%20case
+ERR: 无法加载控制器:Officai url case
+
+[ 2016-12-06T23:40:35+08:00 ] 117.34.13.42 /officail%20url%20case
+ERR: 无法加载控制器:Officail url case
+
+[ 2016-12-06T23:40:45+08:00 ] 117.34.13.42 /officai%20url%20more
+ERR: 无法加载控制器:Officai url more
+
+[ 2016-12-06T23:40:55+08:00 ] 117.34.13.42 /officail%20url%20more
+ERR: 无法加载控制器:Officail url more
+
+[ 2016-12-06T23:41:05+08:00 ] 117.34.13.42 /platform%20url%20case
+ERR: 无法加载控制器:Platform url case
+
+[ 2016-12-06T23:41:15+08:00 ] 117.34.13.42 /platform%20url%20more
+ERR: 无法加载控制器:Platform url more
+

@@ -1,0 +1,57 @@
+<php>
+	$web = M('System')->where('id =1')->find();
+	$qq = explode(',',$web['web_qq']);
+</php>
+	<div id='footer'>
+		<div class='footer-address'>
+			<div class='container'>
+				<dl class='address'>
+					<dd><i class='address-address'></i>地址：{$web.web_address}</dd>
+					<dd><i class='address-email'></i>邮箱：<a href='mailto:admin@tucsion.com'>admin@tucsion.com</a></dd>
+					<dd><i class='address-telphone'></i>电话：<a href='tel:{$web.web_telphone}'>{$web.web_telphone}</a>
+					</dd>
+				</dl> 
+				<div class='weixin'>
+					<img src='__IMG__/weixin.png' alt=''>
+					<p>扫一扫<br>关注图森微信</p>
+				</div>
+				<div class='online'>
+					<div class='online1'>
+						<div class='online2'>
+						<foreach name="qq" item="vo">
+							<a href='http://wpa.qq.com/msgrd?v=3&uin={$vo}&site=qq&menu=yes'></a>
+						</foreach>
+						</div>
+					</div>
+					<p>我们随时欢迎您在我们的工作时间内拜访或咨询。</p>
+				</div>
+			</div>
+		</div>
+		<div class='copyright container'>
+			<div class='footerLogo'>
+				<img src='__IMG__/footerLogo.png' alt='图森品牌LOGO' />
+			</div>
+			<ul> 
+				<li><a href='/about/'>关于图森</a></li>
+				<!-- <li><a href='#'>隐私声明</a></li> -->
+				<li><a href='/contact/'>联系我们</a></li>
+				<li><a href='/project/' target='_blank'>项目管理</a></li>
+			</ul>
+			<p class="footerP">
+				{$web.web_copyright}
+			</p>
+			<p class="footerP">
+				<a href="http://www.tucsion.com/">图森品牌</a> - 北京本土最优秀的互联网解决方案提供商
+			</p>
+			<p class="footerP">
+				京ICP备15038595号-1
+			</p>
+			<!-- 百度统计代码 -->
+			{$web.web_count}
+		</div>
+	</div>
+	<div id="kefu">
+		<a href="javascript:void(0);" id="huihuBtn"></a>
+		<a href="http://p.qiao.baidu.com/cps/chat?siteId=8965947&userId=20610943" target="_blank"></a>
+	</div>
+	

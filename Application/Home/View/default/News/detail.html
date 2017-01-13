@@ -1,0 +1,58 @@
+ <extend name="Base:base" />
+<block name="title">{$detail[0][title]}_</block>
+<block name="keywords">{$detail[0][keywords]}</block>
+<block name="description">{$detail[0][description]}</block>
+<block name="css">
+	<link rel="stylesheet" href="__CSS__/news.css">
+</block>
+<block name="main">
+	<div class="pageHead"></div>
+	<div class="container details">
+		<foreach name="detail" item="v">
+		<div class="detail">
+		 	<h2 class="title">{$v.title}</h2>
+		 	<p class="info"><a href="/{$v.cate_dir}/">{$v.cate_name}</a> | <span>{$v.post_time|date='Y.m.d',###}</span></p>
+		 	<div class="content">
+		 		{$v.content}
+		 	</div>
+		</div>
+		</foreach>
+	</div>
+	<div class="more-news picScroll-left">
+		<p class="title">更多新闻</p>
+		<div class="ul_box bd">
+			<ul class="more-news-list">
+				<foreach name='recommend' item='v'>
+				<li>
+					<a class="img" href="/{$v.cate_dir}/{$v.id}.html">
+						<img src="{$v.thumbnail}" alt="{$v.title}" title="{$v.title}" />
+					</a>
+					<a class="title" href="/{$v.cate_dir}/{$v.id}.html">{$v.title}</a>
+				</li>
+				</foreach>
+			</ul>
+		</div>
+		<div class="hd">
+			<a href="javascript:void(0);" class="next"><img src="__IMG__/news-next.png" /></a>
+			<a href="javascript:void(0);" class="prev"><img src="__IMG__/news-prev.png" /></a>
+		</div>
+	</div>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__JS__/app.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript">
+		jQuery(".picScroll-left").slide({
+			titCell:".hd ul",
+			mainCell:".bd ul",
+			autoPage:true,
+			effect:"leftLoop",
+			autoPlay:true,
+			scroll:3,
+			vis:3,
+			easing:"easeInBack",
+			delayTime:1000,
+			interTime:4000
+		});
+	</script>
+</block>

@@ -1,0 +1,683 @@
+@charset 'utf-8';
+#case_detail_head {
+    background: #f7f7f0;
+    width: 100%;
+    h3.title {
+        font-weight: lighter;
+        color: #000;
+        text-align: center;
+    }
+    p.info {
+        color: #666;
+        font-weight: lighter;
+        text-indent: 2em;
+    }
+    ul.tags {
+        text-align: center;
+        color: #666;
+        font-weight: 200;
+        li {
+            display: inline-block;
+            &::before {
+                content: ' · ';
+            }
+            &:first-child::before {
+                content: '';
+            }
+        }
+    }
+    
+}
+.case_detail_content{
+    border-bottom: 1px solid #eee;
+}
+.more-case{
+    margin:0 auto;
+    position: relative;
+    transition:1s;
+    p.title{
+        width:100%;
+        text-align: center;
+        color:#000;
+        font-weight: lighter;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    div.ul_box{
+        position: absolute;
+        overflow:hidden;
+        ul.more-case-list{
+            width:300%;
+            li{
+                float:left;
+                a{
+                    display:block;
+                }
+                a.img{
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                a.title{
+                    font-weight: 200;
+                    color:#000;
+                }
+            }
+        }
+    }
+    .hd{
+        position: relative;
+        overflow: visible;
+        height: 23px;
+        a.prev,a.next{
+            position: absolute;
+            top: 0;
+            z-index: 9;
+        }
+    }
+}
+//屏幕尺寸 >= 1400
+@media screen and (min-width:1400px) {
+    @sWidth: 1360px;
+    ul.case-list {
+        width: @sWidth + 20;
+        overflow: hidden;
+        li {
+            width: 440px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            a.img {
+                width: 440px;
+                height: 275px;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                img {
+                    width: 440px;
+                    height: 275px;
+                }
+            }
+            a.title {
+                display: block;
+                font-size: 20px;
+                font-weight: normal;
+                color: #000;
+                padding-top: 20px;
+            }
+            p.info {
+                font-size: 16px;
+                font-weight: lighter;
+                color: #666;
+                margin-top: 10px;
+            }
+        }
+    }
+    div.more {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 70px;
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            width: 130px;
+            background: url("../images/arrow-right.png") left center no-repeat;
+        }
+    }
+    #case_detail_head {
+        h3.title {
+            font-size: 42px;
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+        p.info {
+            line-height: 30px;
+            font-size: 16px;
+        }
+        ul.tags {
+            font-size: 16px;
+            padding: 30px 0 50px;
+        }
+        #scrollPics {
+            ul.bigPics {
+                height: 650px;
+            }
+            ul.countPics {
+                right: 60px;
+                top: 40%;
+                li {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    .case_detail_content {
+        padding: 80px 0;
+        margin-bottom: 80px;
+    }
+    .more-case{
+        width:1360px;
+        height:500px;
+        padding:0 35px 100px 35px;
+        p.title{
+            font-size: 24px;
+        }
+        div.ul_box{
+            top:64px;
+            left:35px;
+            width:1290px;
+            ul.more-case-list{
+                li{
+                    width:410px;
+                    margin-right: 30px;
+                    a.title{
+                        font-size: 20px;
+                        margin-top: 16px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+        .hd{
+            top:190px;
+            a.prev{
+                left: -50px;
+            }
+            a.next{
+                right: -50px;
+            }
+        }
+    }
+}
+// 1200 <= 屏幕尺寸 < 1400
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    @sWidth: 1170px;
+    ul.case-list {
+        width: @sWidth + 15;
+        overflow: hidden;
+        li {
+            width: 380px;
+            float: left;
+            margin-right: 15px;
+            margin-bottom: 45px;
+            a.img {
+                width: 380px;
+                height: 237.5px;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                img {
+                    width: 380px;
+                    height: 237.5px;
+                }
+            }
+            a.title {
+                display: block;
+                font-size: 20px;
+                font-weight: normal;
+                color: #000;
+                padding-top: 20px;
+            }
+            p.info {
+                font-size: 16px;
+                font-weight: lighter;
+                color: #666;
+                margin-top: 10px;
+            }
+        }
+    }
+    div.more {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px; //比上级减10
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            width: 130px;
+            background: url("../images/arrow-right.png") left center no-repeat;
+        }
+    }
+    #case_detail_head {
+        h3.title {
+            font-size: 42px;
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+        p.info {
+            line-height: 30px;
+            font-size: 16px;
+        }
+        ul.tags {
+            font-size: 16px;
+            padding: 30px 0 50px;
+        }
+        #scrollPics {
+            ul.bigPics {
+                height: 650px;
+            }
+            ul.countPics {
+                top: 40%;
+                li {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    .case_detail_content {
+        padding: 80px 0;
+        margin-bottom: 80px;
+    }
+    .more-case{
+        width:@sWidth;
+        height:500px;
+        padding:0 35px 100px 35px;
+        p.title{
+            font-size: 24px;
+        }
+        div.ul_box{
+            top:64px;
+            left:35px;
+            width:1100px;
+            ul.more-case-list{
+                li{
+                    width:346px;
+                    margin-right: 31px;
+                    a.title{
+                        font-size: 20px;
+                        margin-top: 16px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+        .hd{
+            top:165px;
+            a.prev{
+                left: -50px;
+            }
+            a.next{
+                right: -50px;
+            }
+        }
+    }
+}
+// 992 <= 屏幕尺寸 < 1200
+@media screen and (min-width:992px) and (max-width:1199px) {
+    @sWidth: 970px;
+    ul.case-list {
+        width: @sWidth + 15;
+        overflow: hidden;
+        li {
+            width: 314px;
+            float: left;
+            margin-right: 14px;
+            margin-bottom: 40px;
+            a.img {
+                width: 314px;
+                height: 213.125px;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                img {
+                    width: 314px;
+                    height: 213.125px;
+                }
+            }
+            a.title {
+                display: block;
+                font-size: 16px;
+                font-weight: normal;
+                color: #000;
+                padding-top: 16px;
+            }
+            p.info {
+                font-size: 14px;
+                font-weight: lighter;
+                color: #666;
+                margin-top: 8px;
+            }
+        }
+    }
+    div.more {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px; //比上级减10
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            width: 130px;
+            background: url("../images/arrow-right.png") left center no-repeat;
+        }
+    }
+    #case_detail_head {
+        h3.title {
+            font-size: 36px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        p.info {
+            line-height: 30px;
+            font-size: 16px;
+        }
+        ul.tags {
+            font-size: 16px;
+            padding: 20px 0 30px;
+        }
+        #scrollPics {
+            ul.bigPics {
+                height: 500px;
+            }
+            ul.countPics {
+                top: 40%;
+                li {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    .case_detail_content {
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+    .more-case{
+        width:@sWidth;
+        height:400px;
+        p.title{
+            font-size: 24px;
+        }
+        div.ul_box{
+            top:64px;
+            left:35px;
+            width:900px;
+            ul.more-case-list{
+                li{
+                    width:284px;
+                    margin-right: 24px;
+                    a.title{
+                        font-size: 16px;
+                        margin-top: 12px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        .hd{
+            top:145px;
+            a.prev{
+                left: -20px;
+            }
+            a.next{
+                right: -20px;
+            }
+        }
+    }
+}
+// 768 <= 屏幕尺寸 < 992
+@media screen and (min-width:768px) and (max-width:991px) {
+    @sWidth: 750px;
+    ul.case-list {
+        width: @sWidth + 16;
+        overflow: hidden;
+        li {
+            width: 367px;
+            float: left;
+            margin-right: 16px;
+            margin-bottom: 20px;
+            a.img {
+                width: 367px;
+                height: 249px;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                img {
+                    width: 367px;
+                    height: 249px;
+                }
+            }
+            a.title {
+                display: block;
+                font-size: 16px;
+                font-weight: normal;
+                color: #000;
+                padding-top: 16px;
+            }
+            p.info {
+                font-size: 14px;
+                font-weight: lighter;
+                color: #666;
+                margin-top: 8px;
+            }
+        }
+    }
+    div.more {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px; //比上级减10
+        margin-top: 20px;
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            width: 130px;
+            background: url("../images/arrow-right.png") left center no-repeat;
+        }
+    }
+    #case_detail_head {
+        h3.title {
+            font-size: 24px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        p.info {
+            line-height: 25px;
+            font-size: 14px;
+        }
+        ul.tags {
+            font-size: 14px;
+            padding: 20px 0 30px;
+        }
+        #scrollPics {
+            ul.bigPics {
+                height: 400px;
+            }
+            ul.countPics {
+                top: 40%;
+                li {
+                    padding: 6px 0;
+                    i {
+                        width: 20px;
+                        height: 20px;
+                        background-position: 0 -72px;
+                    }
+                    &:hover,
+                    &.on {
+                        i {
+                            background-position: 0 -52px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .case_detail_content {
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+    .more-case{
+        width:@sWidth;
+        height:320px;
+        p.title{
+            font-size: 24px;
+        }
+        div.ul_box{
+            top:64px;
+            left:35px;
+            width:680px;
+            ul.more-case-list{
+                li{
+                    width:220px;
+                    margin-right: 10px;
+                    a.title{
+                        font-size: 14px;
+                        margin-top: 12px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+        .hd{
+            top:125px;
+            a.prev{
+                left: -20px;
+            }
+            a.next{
+                right: -20px;
+            }
+        }
+    }
+}
+// 560 <= 屏幕尺寸 < 768
+@media screen and (min-width:560px) and (max-width:767px) {
+    @sWidth: 100%;
+    ul.case-list {
+        width: @sWidth + 20;
+        overflow: hidden;
+        li {
+            width: 250px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            a.img {
+                width: 250px;
+                height: 170px;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                img {
+                    width: 250px;
+                    height: 170px;
+                }
+            }
+            a.title {
+                display: block;
+                font-size: 16px;
+                font-weight: normal;
+                color: #000;
+                padding-top: 16px;
+            }
+            p.info {
+                font-size: 14px;
+                font-weight: lighter;
+                color: #666;
+                margin-top: 8px;
+            }
+        }
+    }
+    div.more {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px; //比上级减10
+        margin-top: 30px;
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            width: 130px;
+            background: url("../images/arrow-right.png") left center no-repeat;
+        }
+    }
+    #case_detail_head {
+        h3.title {
+            font-size: 24px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        p.info {
+            line-height: 25px;
+            font-size: 14px;
+        }
+        ul.tags {
+            font-size: 14px;
+            padding: 20px 0 30px;
+        }
+    }
+    .case_detail_content {
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+    .more-case{
+        display: none;
+    }
+}
+//屏幕尺寸 < 522
+@media screen and (max-width:559px) {
+    @sWidth: 100%;
+    ul.case-list {
+        width: 100%;
+        clear: both;
+        li {
+            width: 100%;
+            margin-bottom: 20px;
+            a.img {
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                img {
+                    width: 100%;
+                }
+            }
+            a.title {
+                display: block;
+                font-size: 16px;
+                font-weight: normal;
+                color: #000;
+                padding-top: 10px;
+            }
+            p.info {
+                font-size: 14px;
+                font-weight: lighter;
+                color: #666;
+            }
+        }
+    }
+    div.more {
+        clear: both;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px; //比上级减10
+        a {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #000;
+            width: 130px;
+            background: url("../images/arrow-right.png") left center no-repeat;
+        }
+    }
+    #case_detail_head {
+        h3.title {
+            font-size: 22px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        p.info {
+            line-height: 25px;
+            font-size: 12px;
+        }
+        ul.tags {
+            font-size: 14px;
+            padding: 20px 0 30px;
+        }
+
+    }
+    .case_detail_content {
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+    .more-case{
+        display: none;
+    }
+}

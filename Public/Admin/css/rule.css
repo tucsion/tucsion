@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+.rule{
+	width: 96%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 1px solid #eee;
+}
+
+.app h3{
+	display: block;
+	font-size: 14px;
+	color: #222;
+	font-weight: 800;
+	height: 40px;
+	line-height: 40px;
+	background: #fcfcfc;
+	text-indent: 1em;
+}
+dl.action{
+	height: auto;
+	overflow: hidden;
+	padding: 1em;
+}
+dl.action:last-child{
+	// padding-top: 0;
+}
+dl.action dt{
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+}
+dl.action dd{
+	float: left;
+	margin-right: 1em;
+	font-size: 12px;
+	color: #999;
+	line-height: 30px;
+}
+.tool{
+	font-size: 12px;
+}
+.submitBtn{
+	margin: 1em 0 1em 2%;
+}
+
+

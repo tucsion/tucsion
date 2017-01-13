@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+#content{
+	line-height: 0;
+	text-align: center;
+}
+
+.headImg{
+	line-height: 0;
+}

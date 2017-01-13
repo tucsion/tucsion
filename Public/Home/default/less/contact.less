@@ -1,0 +1,430 @@
+@charset 'utf-8';
+
+.contact{
+	margin: 0 auto;
+	h4.title{
+		color: #000;
+		font-weight: 300;
+		text-align: center;
+	}
+	p.subtitle{
+		color:#000;
+		text-align: center;
+		font-weight: lighter;
+		a{
+			color:#a0a14c;
+		}
+	}
+	form{
+		dl{
+			width:100%;
+			dd{
+				width:100%;
+				position: relative;
+				textarea{
+					width:100%;
+					border:2px solid #ddd;
+					top:0;
+					left: 0;
+				}
+				input,span.field,i,textarea{
+					position: absolute;
+				}
+				input{
+					top:0;
+					left: 0;
+					width:100%;
+					height:100%;
+					border:2px solid #ddd;
+					text-indent: 6em;
+				}
+				
+				span.field{
+					left:1em;
+					color:#666;
+					font-weight: 200;
+				}
+				i{
+					right: 1em;
+					color:#999;
+					font-weight: lighter;
+				}
+				
+			}
+			.btn{
+				width:100%;
+				background: #9fa14c;
+				text-align: center;
+				transition:1s;
+				color:#fff;
+				display: block;
+				&:hover{
+					background: #6d6e34;
+				}
+			}
+		}
+	}
+	.map{
+		width:100%;
+		border:1px solid #ddd;
+	}
+}
+
+//屏幕尺寸 >= 1400
+@media screen and (min-width:1400px){
+	@sWidth:1360px;	
+	.contact{
+		width: 600px;
+		padding-bottom: 90px;
+		h4.title{
+			margin-top: 90px;
+			margin-bottom: 15px;
+			font-size: 36px;
+		}
+		p.subtitle{
+			font-size: 18px;
+			line-height: 36px;
+		}
+		form{
+			margin-top: 40px;
+			dl{
+				dd{
+					height:60px;
+					margin-bottom: 20px;
+					&.textarea{
+						height:200px;
+					}
+					textarea{
+						height:200px;
+						font-size: 18px;
+						padding: 16px;
+					}
+					input{
+						font-size: 18px;
+						text-indent: 6em;
+					}
+					
+					span.field{
+						top:16px;
+						font-size: 18px;
+					}
+					i{
+						top:22px;
+						font-size: 16px;
+					}
+					
+				}
+				.btn{
+					height:70px;
+					line-height: 70px;
+					font-size: 18px;
+					margin-top: 50px;
+				}
+			}
+		}
+		.map{
+			margin-top: 50px;
+			height:500px;
+		}
+	}
+}
+
+// 1200 <= 屏幕尺寸 < 1400
+@media screen and (min-width:1200px) and (max-width:1399px){
+	@sWidth:1170px;
+	.contact{
+		width: 600px;
+		padding-bottom: 90px;
+		h4.title{
+			margin-top: 90px;
+			margin-bottom: 15px;
+			font-size: 36px;
+		}
+		p.subtitle{
+			font-size: 18px;
+			line-height: 36px;
+		}
+		form{
+			margin-top: 40px;
+			dl{
+				dd{
+					height:60px;
+					margin-bottom: 20px;
+					&.textarea{
+						height:200px;
+					}
+					textarea{
+						height:200px;
+						font-size: 18px;
+						padding: 16px;
+					}
+					input{
+						font-size: 18px;
+						text-indent: 6em;
+					}
+					
+					span.field{
+						top:16px;
+						font-size: 18px;
+					}
+					i{
+						top:22px;
+						font-size: 16px;
+					}
+					
+				}
+				.btn{
+					height:70px;
+					line-height: 70px;
+					font-size: 18px;
+					margin-top: 50px;
+				}
+			}
+		}
+		.map{
+			margin-top: 50px;
+			height:500px;
+		}
+	}
+}
+
+// 992 <= 屏幕尺寸 < 1200
+@media screen and (min-width:992px) and (max-width:1199px){
+	@sWidth:970px;
+	.contact{
+		width: 600px;
+		padding-bottom: 90px;
+		h4.title{
+			margin-top: 90px;
+			margin-bottom: 15px;
+			font-size: 36px;
+		}
+		p.subtitle{
+			font-size: 18px;
+			line-height: 36px;
+		}
+		form{
+			margin-top: 40px;
+			dl{
+				dd{
+					height:60px;
+					margin-bottom: 20px;
+					&.textarea{
+						height:200px;
+					}
+					textarea{
+						height:200px;
+						font-size: 18px;
+						padding: 16px;
+					}
+					input{
+						font-size: 18px;
+						text-indent: 6em;
+					}
+					
+					span.field{
+						top:16px;
+						font-size: 18px;
+					}
+					i{
+						top:22px;
+						font-size: 16px;
+					}
+					
+				}
+				.btn{
+					height:70px;
+					line-height: 70px;
+					font-size: 18px;
+					margin-top: 50px;
+				}
+			}
+		}
+		.map{
+			margin-top: 50px;
+			height:500px;
+		}
+	}
+}
+
+// 768 <= 屏幕尺寸 < 992
+@media screen and (min-width:768px) and (max-width:991px){
+	@sWidth:750px;
+	.contact{
+		width: 600px;
+		padding-bottom: 90px;
+		h4.title{
+			margin-top: 90px;
+			margin-bottom: 15px;
+			font-size: 36px;
+		}
+		p.subtitle{
+			font-size: 18px;
+			line-height: 36px;
+		}
+		form{
+			margin-top: 40px;
+			dl{
+				dd{
+					height:50px;
+					margin-bottom: 20px;
+					&.textarea{
+						height:200px;
+					}
+					textarea{
+						height:200px;
+						font-size: 18px;
+						padding: 16px;
+					}
+					input{
+						font-size: 18px;
+						text-indent: 6em;
+					}
+					
+					span.field{
+						top:16px;
+						font-size: 18px;
+					}
+					i{
+						top:22px;
+						font-size: 16px;
+					}
+					
+				}
+				.btn{
+					height:60px;
+					line-height: 60px;
+					font-size: 18px;
+					margin-top: 40px;
+				}
+			}
+		}
+		.map{
+			margin-top: 40px;
+			height:500px;
+		}
+	}
+}
+
+// 560 <= 屏幕尺寸 < 768
+@media screen and (min-width:560px) and (max-width:767px){
+	@sWidth:520px;
+	.contact{
+		width: 480px;
+		padding-bottom: 60px;
+		h4.title{
+			margin-top: 60px;
+			margin-bottom: 15px;
+			font-size: 24px;
+		}
+		p.subtitle{
+			font-size: 14px;
+			line-height: 30px;
+		}
+		form{
+			margin-top: 30px;
+			dl{
+				dd{
+					height:50px;
+					margin-bottom: 15px;
+					&.textarea{
+						height:100px;
+					}
+					textarea{
+						height:100px;
+						font-size: 16px;
+						padding: 16px;
+					}
+					input{
+						font-size: 14px;
+						text-indent: 6em;
+					}
+					
+					span.field{
+						top:14px;
+						font-size: 14px;
+					}
+					i{
+						top:20px;
+						font-size: 16px;
+					}
+					
+				}
+				.btn{
+					height:40px;
+					line-height: 40px;
+					font-size: 16px;
+					margin-top: 30px;
+				}
+			}
+		}
+		.map{
+			margin-top: 30px;
+			height:300px;
+		}
+	}
+}
+
+//屏幕尺寸 < 522
+@media screen and (max-width:559px){
+	@sWidth:100%;
+	.contact{
+		width: 100%;
+		padding-bottom: 40px;
+		h4.title{
+			margin-top: 40px;
+			margin-bottom: 15px;
+			font-size: 20px;
+		}
+		p.subtitle{
+			font-size: 14px;
+			line-height: 30px;
+		}
+		form{
+			margin-top: 10px;
+			dl{
+				dd{
+					height:40px;
+					margin-bottom: 15px;
+					&.textarea{
+						height:100px;
+					}
+					textarea{
+						height:100px;
+						font-size: 14px;
+						padding: 14px;
+						border-width: 1px;
+					}
+					input{
+						font-size: 14px;
+						text-indent: 6em;
+						border-width: 1px;
+					}
+					
+					span.field{
+						top:10px;
+						font-size: 14px;
+					}
+					i{
+						top:15px;
+						font-size: 16px;
+					}
+					
+				}
+				.btn{
+					height:40px;
+					line-height: 40px;
+					font-size: 16px;
+					margin-top: 30px;
+				}
+			}
+		}
+		.map{
+			margin-top: 30px;
+			height:200px;
+		}
+	}
+}
+
+
+

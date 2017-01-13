@@ -1,0 +1,57 @@
+[ 2016-12-29T03:34:01+08:00 ] 123.125.67.221 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-29T03:41:33+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-29T05:51:22+08:00 ] 58.211.2.36 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-12-29T09:45:28+08:00 ] 122.190.2.6 /news/24.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-12-29T14:37:24+08:00 ] 117.34.13.72 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-29T14:41:02+08:00 ] 106.38.241.110 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-29T19:36:44+08:00 ] 207.46.13.123 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-12-29T19:57:52+08:00 ] 220.181.108.161 /POLICY.txt
+ERR: 无法加载控制器:POLICY
+
+[ 2016-12-29T20:39:48+08:00 ] 140.205.225.184 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-12-29T20:40:04+08:00 ] 140.205.225.184 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-12-29T20:40:09+08:00 ] 140.205.225.184 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-12-29T20:40:12+08:00 ] 140.205.225.184 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-12-29T20:40:12+08:00 ] 140.205.225.184 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-12-29T20:40:19+08:00 ] 140.205.225.184 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-12-29T20:40:23+08:00 ] 140.205.225.184 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-12-29T20:40:25+08:00 ] 140.205.225.184 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-12-29T20:40:29+08:00 ] 140.205.225.184 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-12-29T23:56:25+08:00 ] 162.158.69.190 /robots.txt
+ERR: 无法加载控制器:Robots
+

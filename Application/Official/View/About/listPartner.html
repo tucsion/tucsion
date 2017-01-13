@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>合作伙伴列表</title>
+	<link rel="stylesheet" href="__CSS__/base.css">
+	<link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+	<!-- 位置导航 -->
+	<div class="location">
+		<div class="left">
+			<a href="{:U('System/index')}">官网管理</a> / 关于我们
+		</div>
+		<div class="right">
+			<a href="{:U('Job/listJob')}">招聘</a> | 
+			<a href="{:U('Partner/addPartner')}" style="color: red;">新增合作伙伴</a> | 
+			<a href="{:U('Team/listTeam')}">团队管理</a> | 
+			<a href="{$prevPage}">返回</a>
+		</div>
+	</div>
+	<!-- 正文 -->
+	<form action="__SELF__" method="post">
+		<table class="table table-col" cellspacing="1">
+			<tr>
+				<th>ID#</th>
+				<th>公司名称</th>
+				<th>跳转网址</th>
+				<th>缩略图</th>
+				<th>排序</th>
+			</tr>
+			<foreach name="list" item="v">
+			<tr>
+				<td>{$v.id}</td>
+				<td>{$v.name}</td>
+				<td><a href="{$v.url}" target="_blank">{$v.url}</a></td>
+				<td><img src="{$v.thumbnail}" height="60" /></td>
+				<td>
+					<a href="{:U('updatePartner')}/id/{$v.id}/">修改</a> |  
+					<a href="{:U('delPartner')}/id/{$v.id}/" class="delBtn">删除</a> | 
+					<input type="text" name="sort[{$v.id}]" value="{$v.sort}" class="sort">
+				</td>
+			</tr>
+			</foreach>
+			<tr>
+				<td colspan="4">
+					<div id="page">{$page}</div>
+				</td>
+				<td>
+					<input type="submit" value="排序">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript" src="__JS__/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/modal.js"></script>	
+</body>
+</html>

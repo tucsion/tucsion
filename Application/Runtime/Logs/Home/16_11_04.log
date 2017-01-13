@@ -1,0 +1,90 @@
+[ 2016-11-04T01:04:35+08:00 ] 220.181.51.75 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T01:39:48+08:00 ] 123.125.71.32 /news/27.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-04T02:50:47+08:00 ] 182.118.20.233 /news/technical/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-04T04:46:00+08:00 ] 101.71.55.135 /jkb.rar
+ERR: 无法加载控制器:Jkb
+
+[ 2016-11-04T05:59:24+08:00 ] 182.118.20.218 /news/23.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.fid = b.id AND a.is_display = 1 )' at line 1
+ [ SQL语句 ] : SELECT a.id,a.title,a.description,a.thumbnail,a.post_time,b.dir as cate_dir,b.name as cate_name FROM ts_news as a INNER JOIN ts_category as b  WHERE ( a.fid IN() AND a.fid = b.id AND a.is_display = 1 ) 
+
+[ 2016-11-04T07:20:55+08:00 ] 173.245.49.137 /a/wangluopinpaishejiyuguanli/20141101/3.html
+ERR: 无法加载控制器:A
+
+[ 2016-11-04T08:10:15+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T08:59:38+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T10:39:20+08:00 ] 108.162.246.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T10:57:13+08:00 ] 121.42.0.14 /editors/index.html
+ERR: 无法加载控制器:Editors
+
+[ 2016-11-04T10:57:29+08:00 ] 121.42.0.14 /job/templates/met/css/style.css
+ERR: 无法加载控制器:Job
+
+[ 2016-11-04T10:57:34+08:00 ] 121.42.0.14 /script/valid_formdata.js
+ERR: 无法加载控制器:Script
+
+[ 2016-11-04T10:57:36+08:00 ] 121.42.0.14 /wp-admin/js/farbtastic.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2016-11-04T10:57:36+08:00 ] 121.42.0.14 /wp-includes/js/swfupload/plugins/swfupload.queue.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-11-04T10:57:43+08:00 ] 121.42.0.14 /install/style.css
+ERR: 无法加载控制器:Install
+
+[ 2016-11-04T10:57:46+08:00 ] 121.42.0.14 /LICENSE.txt
+ERR: 无法加载控制器:LICENSE
+
+[ 2016-11-04T10:57:48+08:00 ] 121.42.0.14 /style/default/hdwiki.css
+ERR: 无法加载控制器:Style
+
+[ 2016-11-04T10:57:52+08:00 ] 121.42.0.14 /adfile/ad9.js
+ERR: 无法加载控制器:Adfile
+
+[ 2016-11-04T12:55:55+08:00 ] 123.125.71.110 /a/jingpinanli/
+ERR: 无法加载控制器:A
+
+[ 2016-11-04T13:23:07+08:00 ] 157.55.39.194 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T17:17:33+08:00 ] 182.118.20.216 /officai%20url%20case
+ERR: 无法加载控制器:Officai url case
+
+[ 2016-11-04T17:58:53+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T18:52:17+08:00 ] 220.181.108.162 /a/jiaohushejiyuhudongmeitikaifa/20141105/9.html
+ERR: 无法加载控制器:A
+
+[ 2016-11-04T20:50:20+08:00 ] 172.68.65.96 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T21:09:18+08:00 ] 203.208.60.193 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T23:24:02+08:00 ] 207.46.13.199 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2016-11-04T23:24:08+08:00 ] 157.55.39.91 /contacts/
+ERR: 无法加载控制器:Contacts
+
